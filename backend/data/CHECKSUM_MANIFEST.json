@@ -32,8 +32,8 @@
     "size_bytes": 2514
   },
   "backend/app/main.py": {
-    "sha256": "fbc6d9d862181824c25dd6de99bf39c7590fed6a2a07c08019264e00ef0b630d",
-    "size_bytes": 22211
+    "sha256": "92d7f6c1e9907511dbff7487ec2e70525632d343004ce777d8a8a0fac12bf284",
+    "size_bytes": 22356
   },
   "backend/app/predictor.py": {
     "sha256": "125e956686505bb579d950fc3b64e8a3856b95ffcde47cd3f01891966a3a8a84",
@@ -196,8 +196,8 @@
     "size_bytes": 6411
   },
   "frontend/.gitignore": {
-    "sha256": "207e265ff4901f9ad9f96d8ce08530e04f9fc600815472a66d0a446096d654cd",
-    "size_bytes": 480
+    "sha256": "44bba37cba4e68834eca4e47785e2d72fb770c6f55d4b29cffd3cbee54f1c706",
+    "size_bytes": 491
   },
   "frontend/README.md": {
     "sha256": "b449860211c3307f89e9dae608309febcba2b9a935ac3e55494a26d2a30b44d1",
@@ -224,8 +224,8 @@
     "size_bytes": 83
   },
   "frontend/public/hud.html": {
-    "sha256": "2b2176b8a8d7dfa8a6834ba3a087891c03fd30ea32a715934e06afa212d0cd66",
-    "size_bytes": 69548
+    "sha256": "da05e6dc3345610f5a3fa10258c0793e57c1ab905382e50a829483550ea28a68",
+    "size_bytes": 69918
   },
   "frontend/public/newsintel_hero.jpg": {
     "sha256": "dee1699a31fb5d6f2e08e4fb851485fa0d778c38ac0841b29eac9fca4d7855e4",
@@ -262,6 +262,10 @@
   "pytest.ini": {
     "sha256": "e317b4ea9380c31b982e3e43cd60ba7103515d0bcf4f21c57d005ca8fd0f8bb3",
     "size_bytes": 50
+  },
+  "render.yaml": {
+    "sha256": "160f9d85fae28560e926416b5934b43fdde1525d62a5c3e626e2ca5e0f4f193d",
+    "size_bytes": 275
   },
   "requirements.txt": {
     "sha256": "2edba82a7ccdfec43b66bd0914643393ab1c64b260f31368216bffc32ed6d788",

@@ -936,7 +936,14 @@
 
   <!-- SCRIPT ENGINE -->
   <script>
-    const API = "http://127.0.0.1:8000";
+    // Smart API routing: Localhost fallback in dev, Render cloud backend in production
+    const urlParams = new URLSearchParams(window.location.search);
+    const customApi = urlParams.get("api");
+    const API = customApi || (
+      (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+        ? "http://127.0.0.1:8000"
+        : "https://newsintel-api.onrender.com"
+    );
 
     // Taxonomy 13 classes definition
     const TAXONOMY = [

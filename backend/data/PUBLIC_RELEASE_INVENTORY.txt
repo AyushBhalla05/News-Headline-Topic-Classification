@@ -67,4 +67,5 @@ frontend/src/app/page.tsx
 frontend/tailwind.config.js
 frontend/tsconfig.json
 pytest.ini
+render.yaml
 requirements.txt
