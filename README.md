@@ -44,25 +44,25 @@
 
 ```mermaid
 graph TD
-    Client([🌐 Client / Browser]) -->|HTTP / JSON| Frontend[Next.js 14 HUD Cockpit]
-    Frontend -->|REST API :8000| FastAPI[FastAPI Inference Engine]
+    Client["Client / Web Browser"] -->|"HTTP / JSON"| Frontend["Next.js 14 HUD Cockpit"]
+    Frontend -->|"REST API :8000"| FastAPI["FastAPI Inference Engine"]
 
-    subgraph Speed & In-Memory Layer
-        FastAPI --> LRU{Thread-Safe LRU Cache}
-        LRU -->|Cache Hit (<0.1ms)| FastResp[Instant Cached Response]
+    subgraph SpeedLayer ["In-Memory Acceleration Layer"]
+        FastAPI --> LRU{"Thread-Safe LRU Cache"}
+        LRU -->|"Cache Hit (under 0.1ms)"| FastResp["Instant Cached Response"]
     end
 
-    subgraph Machine Learning Pipeline (TF-IDF + LinearSVC)
-        LRU -->|Cache Miss| Preprocess[Text Normalizer & Tokenizer]
-        Preprocess --> TFIDF[TF-IDF N-Gram Vectorizer (1,2)]
-        TFIDF --> Model[LinearSVC Base Classifier (C=0.8)]
-        Model --> Platt[5-Fold Platt Sigmoidal Calibration]
-        Platt --> Explain[Token Attribution Engine (Fitted Weights)]
+    subgraph MLPipeline ["Machine Learning Pipeline"]
+        LRU -->|"Cache Miss"| Preprocess["Text Normalizer & Tokenizer"]
+        Preprocess --> TFIDF["TF-IDF N-Gram Vectorizer (1,2)"]
+        TFIDF --> Model["LinearSVC Base Classifier (C=0.8)"]
+        Model --> Platt["5-Fold Platt Sigmoidal Calibration"]
+        Platt --> Explain["Token Attribution Engine (Fitted Weights)"]
     end
 
-    subgraph Storage & Audit Logging
-        FastAPI --> SQLite[(SQLite DB: predictions.db)]
-        SQLite --> Audit[Persistent Prediction History & Latency Logs]
+    subgraph StorageLayer ["Persistence & Audit Logging"]
+        FastAPI --> SQLite[("SQLite DB: predictions.db")]
+        SQLite --> Audit["Persistent Prediction History & Latency Logs"]
     end
 
     FastResp --> Client
