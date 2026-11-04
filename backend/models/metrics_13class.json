@@ -1,0 +1,346 @@
+{
+  "model_version": "3.0.0-13class-track1",
+  "model_architecture": "TF-IDF(ngram=(1,2), min_df=2) + CalibratedClassifierCV(LinearSVC(C=0.8), cv=5, method='sigmoid')",
+  "training_metadata": {
+    "training_samples": 20800,
+    "validation_samples": 2600,
+    "test_samples": 2600,
+    "categories_count": 13,
+    "categories": [
+      "Art & Culture",
+      "Business & Economy",
+      "Crime & Law",
+      "Education",
+      "Entertainment",
+      "Environment & Climate",
+      "Health & Science",
+      "Lifestyle & Society",
+      "Politics",
+      "Sports",
+      "Technology",
+      "Women & Gender",
+      "World & International"
+    ],
+    "training_time_seconds": 4.21,
+    "artifact_size_kb": 12197.92,
+    "trained_at_utc": "2026-11-02 17:44:59 UTC"
+  },
+  "validation_metrics": {
+    "accuracy": 0.6446,
+    "macro_f1": 0.6447,
+    "brier_score": 0.5025
+  },
+  "holdout_test_metrics": {
+    "accuracy": 0.6535,
+    "macro_precision": 0.6538,
+    "macro_recall": 0.6535,
+    "macro_f1": 0.6531,
+    "weighted_precision": 0.6538,
+    "weighted_recall": 0.6535,
+    "weighted_f1": 0.6531,
+    "brier_score": 0.50045,
+    "confusion_matrix": [
+      [
+        138,
+        5,
+        0,
+        1,
+        10,
+        3,
+        2,
+        9,
+        4,
+        3,
+        5,
+        11,
+        9
+      ],
+      [
+        5,
+        107,
+        2,
+        5,
+        6,
+        6,
+        12,
+        10,
+        14,
+        5,
+        13,
+        8,
+        7
+      ],
+      [
+        2,
+        2,
+        152,
+        3,
+        1,
+        4,
+        2,
+        6,
+        6,
+        7,
+        3,
+        3,
+        9
+      ],
+      [
+        8,
+        8,
+        4,
+        142,
+        3,
+        7,
+        3,
+        4,
+        5,
+        5,
+        3,
+        7,
+        1
+      ],
+      [
+        10,
+        2,
+        8,
+        2,
+        129,
+        6,
+        3,
+        6,
+        11,
+        6,
+        1,
+        14,
+        2
+      ],
+      [
+        9,
+        5,
+        4,
+        2,
+        3,
+        135,
+        11,
+        8,
+        5,
+        3,
+        3,
+        4,
+        8
+      ],
+      [
+        11,
+        8,
+        2,
+        4,
+        7,
+        11,
+        117,
+        11,
+        8,
+        1,
+        6,
+        11,
+        3
+      ],
+      [
+        11,
+        6,
+        3,
+        6,
+        13,
+        5,
+        14,
+        111,
+        3,
+        3,
+        7,
+        11,
+        7
+      ],
+      [
+        5,
+        7,
+        11,
+        3,
+        7,
+        6,
+        7,
+        1,
+        130,
+        2,
+        2,
+        7,
+        12
+      ],
+      [
+        7,
+        2,
+        8,
+        0,
+        7,
+        4,
+        5,
+        5,
+        5,
+        147,
+        2,
+        6,
+        2
+      ],
+      [
+        1,
+        15,
+        3,
+        2,
+        5,
+        4,
+        5,
+        3,
+        5,
+        2,
+        150,
+        1,
+        4
+      ],
+      [
+        8,
+        13,
+        5,
+        6,
+        11,
+        2,
+        17,
+        15,
+        11,
+        6,
+        3,
+        99,
+        4
+      ],
+      [
+        4,
+        7,
+        8,
+        2,
+        0,
+        10,
+        6,
+        3,
+        5,
+        5,
+        2,
+        6,
+        142
+      ]
+    ],
+    "classes": [
+      "Art & Culture",
+      "Business & Economy",
+      "Crime & Law",
+      "Education",
+      "Entertainment",
+      "Environment & Climate",
+      "Health & Science",
+      "Lifestyle & Society",
+      "Politics",
+      "Sports",
+      "Technology",
+      "Women & Gender",
+      "World & International"
+    ],
+    "per_class_metrics": {
+      "Art & Culture": {
+        "precision": 0.6301,
+        "recall": 0.69,
+        "f1_score": 0.6587,
+        "support": 200.0
+      },
+      "Business & Economy": {
+        "precision": 0.5722,
+        "recall": 0.535,
+        "f1_score": 0.553,
+        "support": 200.0
+      },
+      "Crime & Law": {
+        "precision": 0.7238,
+        "recall": 0.76,
+        "f1_score": 0.7415,
+        "support": 200.0
+      },
+      "Education": {
+        "precision": 0.7978,
+        "recall": 0.71,
+        "f1_score": 0.7513,
+        "support": 200.0
+      },
+      "Entertainment": {
+        "precision": 0.6386,
+        "recall": 0.645,
+        "f1_score": 0.6418,
+        "support": 200.0
+      },
+      "Environment & Climate": {
+        "precision": 0.665,
+        "recall": 0.675,
+        "f1_score": 0.67,
+        "support": 200.0
+      },
+      "Health & Science": {
+        "precision": 0.5735,
+        "recall": 0.585,
+        "f1_score": 0.5792,
+        "support": 200.0
+      },
+      "Lifestyle & Society": {
+        "precision": 0.5781,
+        "recall": 0.555,
+        "f1_score": 0.5663,
+        "support": 200.0
+      },
+      "Politics": {
+        "precision": 0.6132,
+        "recall": 0.65,
+        "f1_score": 0.6311,
+        "support": 200.0
+      },
+      "Sports": {
+        "precision": 0.7538,
+        "recall": 0.735,
+        "f1_score": 0.7443,
+        "support": 200.0
+      },
+      "Technology": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1_score": 0.75,
+        "support": 200.0
+      },
+      "Women & Gender": {
+        "precision": 0.5266,
+        "recall": 0.495,
+        "f1_score": 0.5103,
+        "support": 200.0
+      },
+      "World & International": {
+        "precision": 0.6762,
+        "recall": 0.71,
+        "f1_score": 0.6927,
+        "support": 200.0
+      }
+    }
+  },
+  "baseline_comparison": {
+    "v1_baseline_categories": 4,
+    "v1_random_chance": 0.25,
+    "v1_holdout_accuracy": 0.7937,
+    "v1_macro_f1": 0.7933,
+    "track1_categories": 13,
+    "track1_random_chance": 0.0769,
+    "track1_holdout_accuracy": 0.6535,
+    "track1_macro_f1": 0.6531,
+    "lift_over_random_chance": "8.5x (Track 1) vs 3.17x (v1 Baseline)"
+  }
+}

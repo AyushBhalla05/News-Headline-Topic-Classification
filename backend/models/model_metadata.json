@@ -1,0 +1,17 @@
+{
+  "model_version": "2.0.0",
+  "project_id": "AAI-002",
+  "timestamp": "2026-11-01 09:33:35 UTC",
+  "selected_architecture": "Linear Support Vector (LinearSVC)",
+  "calibration": "CalibratedClassifierCV (sigmoid / Platt scaling with 5-fold CV)",
+  "vocabulary_size": 1291,
+  "artifact_size_kb": 275.08,
+  "primary_dataset": "BBC News Benchmark (real_headlines.csv)",
+  "external_benchmark": "AG News (external_ag_news.csv)",
+  "categories": [
+    "Business",
+    "Entertainment",
+    "Sports",
+    "Technology"
+  ]
+}

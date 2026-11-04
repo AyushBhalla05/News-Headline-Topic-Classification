@@ -1,0 +1,2385 @@
+{
+  "total_annotated_records": 100,
+  "primary_category_agreement_rate": 0.93,
+  "cohens_kappa": 0.9242,
+  "mean_multilabel_jaccard_similarity": 0.9942,
+  "annotator_agreement_summary": "Dual-reviewer agreement on primary label is 93.0% (Cohen's Kappa = 0.9242), and multi-label tag Jaccard similarity is 0.9942.",
+  "records": [
+    {
+      "source_record_id": 25437,
+      "headline": "Creating A Culture Of Concussion Safety Requires Teamwork All Season Long, Not Just One Day",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "date": "2017-09-11",
+      "link": "https://www.huffingtonpost.com/entry/creating-a-culture-of-concussion-safety-requires-teamwork_us_59b6abefe4b0e4419674c362"
+    },
+    {
+      "source_record_id": 78752,
+      "headline": "Pinterest Is Not Messing Around On Diversity",
+      "original_category": "TECH",
+      "primary_category_ground_truth": "Technology",
+      "annotator_1": {
+        "primary": "Technology",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Technology",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Technology",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2016-01-07",
+      "link": "https://www.huffingtonpost.com/entry/pinterest-candice-morgan-diversity_us_568ea7b5e4b0c8beacf60b69"
+    },
+    {
+      "source_record_id": 37001,
+      "headline": "Advocates For Father And Son Imprisoned In Iran Appeal To UN For Help",
+      "original_category": "POLITICS",
+      "primary_category_ground_truth": "Politics",
+      "annotator_1": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Crime & Law",
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Crime & Law"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Crime & Law",
+          "World & International"
+        ]
+      },
+      "date": "2017-04-25",
+      "link": "https://www.huffingtonpost.com/entry/siamak-baquer-namazi-united-nations-arbitrary-detention_us_58fe5494e4b06b9cb9194c15"
+    },
+    {
+      "source_record_id": 125791,
+      "headline": "New Developments In Hate Crime Murder",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "date": "2014-07-18",
+      "link": "https://www.huffingtonpost.com/entry/james-craig-anderson-killed_n_5597704.html"
+    },
+    {
+      "source_record_id": 129441,
+      "headline": "Billionaire Pleads Guilty To Sexually Assaulting Stepdaughter",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Politics",
+          "Technology",
+          "Business & Economy"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Politics",
+          "Technology"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Business & Economy",
+          "Politics",
+          "Technology"
+        ]
+      },
+      "date": "2014-06-07",
+      "link": "https://www.huffingtonpost.com/entry/billionaire-sex-assault-guilty_n_5463632.html"
+    },
+    {
+      "source_record_id": 42117,
+      "headline": "A Ranking Of 12 Meryl Streep Award Show Reaction GIFs",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "World & International",
+        "secondary_tags": [
+          "Entertainment"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Entertainment",
+          "World & International"
+        ]
+      },
+      "date": "2017-02-25",
+      "link": "https://www.huffingtonpost.com/entry/meryl-streep-award-show-reaction-gifs_us_58a4d4e9e4b07602ad516fe2"
+    },
+    {
+      "source_record_id": 23126,
+      "headline": "Bipartisan Bill Introduced To Ban Bump Stocks After Las Vegas Shooting",
+      "original_category": "POLITICS",
+      "primary_category_ground_truth": "Politics",
+      "annotator_1": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Crime & Law",
+          "Business & Economy"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Crime & Law",
+          "Business & Economy"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Business & Economy",
+          "Crime & Law"
+        ]
+      },
+      "date": "2017-10-10",
+      "link": "https://www.huffingtonpost.com/entry/bump-stocks-bill-las-vegas_us_59dd0a4de4b04fc4e1e92111"
+    },
+    {
+      "source_record_id": 143579,
+      "headline": "Bill O'Brien, Texans Reach Agreement For Coach To Leave Penn State For NFL: REPORT",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "date": "2014-01-01",
+      "link": "https://www.huffingtonpost.com/entry/bill-obrien-texans-coach-penn-state_us_5bb732e8e4b097869fd48d28"
+    },
+    {
+      "source_record_id": 60792,
+      "headline": "An Oral History Of The First U.S. Olympic Women's Basketball Team",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "Women & Gender"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "Women & Gender"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "Women & Gender"
+        ]
+      },
+      "date": "2016-07-29",
+      "link": "https://www.huffingtonpost.com/entry/us-olympic-womens-basketball-team-oral-history_us_579766c5e4b0d3568f847a2e"
+    },
+    {
+      "source_record_id": 182862,
+      "headline": "Tyra Banks Says That Booty Is Back, Rihanna Shows Off Half Naked Pictures And More Tweets Of The Week (PHOTOS)",
+      "original_category": "STYLE & BEAUTY",
+      "primary_category_ground_truth": "Lifestyle & Society",
+      "annotator_1": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Business & Economy"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Business & Economy"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Business & Economy"
+        ]
+      },
+      "date": "2012-11-10",
+      "link": "https://www.huffingtonpost.com/entry/tyra-banks-rihanna-twitter-kate-upton_us_5b9c80a4e4b03a1dcc7f3c48"
+    },
+    {
+      "source_record_id": 125912,
+      "headline": "Keeping The 'Happy' in 'Happy Birthday'",
+      "original_category": "WOMEN",
+      "primary_category_ground_truth": "Women & Gender",
+      "annotator_1": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "date": "2014-07-17",
+      "link": "https://www.huffingtonpost.com/entry/keeping-the-happy-in-happy-birthday_b_5593387.html"
+    },
+    {
+      "source_record_id": 53481,
+      "headline": "How The Dictionary Became The Hilarious Election Watchdog We Needed",
+      "original_category": "ARTS & CULTURE",
+      "primary_category_ground_truth": "Art & Culture",
+      "annotator_1": {
+        "primary": "Art & Culture",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Art & Culture",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Art & Culture",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "date": "2016-10-20",
+      "link": "https://www.huffingtonpost.com/entry/merriam-webster-election-tweets_us_58077a96e4b0b994d4c2c33f"
+    },
+    {
+      "source_record_id": 78441,
+      "headline": "Martavis Bryant's 'Crotch Catch'  Is The Best Touchdown Of The NFL Playoffs",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "date": "2016-01-10",
+      "link": "https://www.huffingtonpost.com/entry/martavis-bryant-touchdown-crotch-catch_us_5691d0fbe4b0c8beacf74e60"
+    },
+    {
+      "source_record_id": 25460,
+      "headline": "Mitt Romney 'Planning To Run' For Senate If Orrin Hatch Retires: Report",
+      "original_category": "POLITICS",
+      "primary_category_ground_truth": "Politics",
+      "annotator_1": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "World & International",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Politics",
+          "World & International"
+        ]
+      },
+      "date": "2017-09-11",
+      "link": "https://www.huffingtonpost.com/entry/mitt-romney-senate-utah_us_59b69215e4b0b5e53107a1b0"
+    },
+    {
+      "source_record_id": 13363,
+      "headline": "'The Shape Of Water' Ends Sci-Fi's Losing Streak At The Oscars (UPDATE)",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Entertainment",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": []
+      },
+      "date": "2018-03-02",
+      "link": "https://www.huffingtonpost.com/entry/shape-of-water-oscars_us_5a8ddf4de4b077f5bfeaa1ab"
+    },
+    {
+      "source_record_id": 54674,
+      "headline": "The RCA & Arista Years: A Conversation With Laurie Anderson On Lou Reed, Plus Roger Daltrey Presents Hernan Barangan's Teen Cancer Doc Road Rebellion",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "date": "2016-10-07",
+      "link": "https://www.huffingtonpost.com/entry/the-rca-arista-years-a-conversation-with-laurie_us_57c83445e4b0b9c5b737699f"
+    },
+    {
+      "source_record_id": 184366,
+      "headline": "Cyberbullying Rarely Sole Cause Of Teen Suicide, Study Finds",
+      "original_category": "PARENTING",
+      "primary_category_ground_truth": "Lifestyle & Society",
+      "annotator_1": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Technology",
+          "Health & Science"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Technology",
+          "Health & Science"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Health & Science",
+          "Technology"
+        ]
+      },
+      "date": "2012-10-25",
+      "link": "https://www.huffingtonpost.com/entry/cyberbullying-teen-suicide_us_5b9c7393e4b03a1dcc7ec17f"
+    },
+    {
+      "source_record_id": 127848,
+      "headline": "SHOCK VIDEO: Woman Brutally Beaten In Front Of Her Toddler",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "date": "2014-06-26",
+      "link": "https://www.huffingtonpost.com/entry/latia-harris-woman-beaten-toddler-video_n_5534893.html"
+    },
+    {
+      "source_record_id": 119726,
+      "headline": "Why Emma Watson's Words to the UN on Feminism Weren't Game-Changing",
+      "original_category": "WOMEN",
+      "primary_category_ground_truth": "Women & Gender",
+      "annotator_1": {
+        "primary": "Women & Gender",
+        "secondary_tags": [
+          "Sports",
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Women & Gender",
+        "secondary_tags": [
+          "Sports",
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Women & Gender",
+        "secondary_tags": [
+          "Sports",
+          "World & International"
+        ]
+      },
+      "date": "2014-09-25",
+      "link": "https://www.huffingtonpost.com/entry/why-emma-watsons-words-to-the-un-on-feminism-werent-game-changing_b_5882852.html"
+    },
+    {
+      "source_record_id": 175691,
+      "headline": "NHL Week In Review: Kings, Blackhawks Follow Different Paths In First Week Of Season",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "date": "2013-01-27",
+      "link": "https://www.huffingtonpost.com/entry/nhl-week-blackhawks-blues-first-week_us_5bb6cda0e4b097869fd2eca7"
+    },
+    {
+      "source_record_id": 179199,
+      "headline": "Amazon, Costco And Other Retailers Offering Last-Minute Shipping Deals Before Christmas (PHOTOS)",
+      "original_category": "STYLE & BEAUTY",
+      "primary_category_ground_truth": "Lifestyle & Society",
+      "annotator_1": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "date": "2012-12-20",
+      "link": "https://www.huffingtonpost.com/entry/amazon-costco-shipping-christmas_us_5b9ca6b6e4b03a1dcc809194"
+    },
+    {
+      "source_record_id": 65371,
+      "headline": "Koch's Team To Meet Trump's Camp, But Industrialist Remains Skeptical",
+      "original_category": "POLITICS",
+      "primary_category_ground_truth": "Politics",
+      "annotator_1": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Crime & Law",
+          "Technology",
+          "Sports"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Crime & Law",
+          "Technology",
+          "Sports"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Crime & Law",
+          "Sports",
+          "Technology"
+        ]
+      },
+      "date": "2016-06-08",
+      "link": "https://www.huffingtonpost.comhttp://www.usatoday.com/story/news/politics/elections/2016/06/08/charles-koch-team-donald-trump-campaign-meeting-republican-president/85597102/"
+    },
+    {
+      "source_record_id": 177773,
+      "headline": "Falling in Love With Dance",
+      "original_category": "CULTURE & ARTS",
+      "primary_category_ground_truth": "Art & Culture",
+      "annotator_1": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "date": "2013-01-05",
+      "link": "https://www.huffingtonpost.com/entry/falling-in-love-with-danc_us_5bb242d8e4b0171db69ec811"
+    },
+    {
+      "source_record_id": 100784,
+      "headline": "Do Torture, Shunning, Shaming and Humiliation Build Character?",
+      "original_category": "EDUCATION",
+      "primary_category_ground_truth": "Education",
+      "annotator_1": {
+        "primary": "Education",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Education",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Education",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2015-05-02",
+      "link": "https://www.huffingtonpost.com/entry/do-torture-shunning-shami_b_7188914.html"
+    },
+    {
+      "source_record_id": 110052,
+      "headline": "Why Great Salespeople Fail",
+      "original_category": "BUSINESS",
+      "primary_category_ground_truth": "Business & Economy",
+      "annotator_1": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "date": "2015-01-14",
+      "link": "https://www.huffingtonpost.com/entry/why-great-salespeople-fai_b_6465128.html"
+    },
+    {
+      "source_record_id": 3150,
+      "headline": "Pfizer COVID-19 Vaccine Reduces Transmission After 1 Dose, Study Finds",
+      "original_category": "WORLD NEWS",
+      "primary_category_ground_truth": "World & International",
+      "annotator_1": {
+        "primary": "World & International",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "annotator_2": {
+        "primary": "World & International",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "World & International",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "date": "2021-02-26",
+      "link": "https://www.huffpost.com/entry/pfizer-covid-19-vaccine-reduces-transmission-after-1-dose-study-finds_n_6038e92ec5b6b745c4b655ba"
+    },
+    {
+      "source_record_id": 109011,
+      "headline": "Beware the 'New Cold War'",
+      "original_category": "POLITICS",
+      "primary_category_ground_truth": "Politics",
+      "annotator_1": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2015-01-26",
+      "link": "https://www.huffingtonpost.com/entry/beware-the-new-cold-war_b_6504096.html"
+    },
+    {
+      "source_record_id": 33917,
+      "headline": "3 Ways To Test For Cultural Fit At Your Next Interview",
+      "original_category": "BUSINESS",
+      "primary_category_ground_truth": "Business & Economy",
+      "annotator_1": {
+        "primary": "Business & Economy",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Business & Economy",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Business & Economy",
+        "secondary_tags": []
+      },
+      "date": "2017-05-31",
+      "link": "https://www.huffingtonpost.com/entry/3-ways-to-test-for-cultural-fit_us_592e1a68e4b075342b52c14c"
+    },
+    {
+      "source_record_id": 1688,
+      "headline": "Nikola Jokic Unleashes 'Nasty Cheap Shot' At Markieff Morris In Ugliest Play Of Season",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2021-11-09",
+      "link": "https://www.huffpost.com/entry/nikola-jokic-cheap-shot-markieff-morris_n_618a4882e4b06de3eb7a60a7"
+    },
+    {
+      "source_record_id": 34261,
+      "headline": "Ariana Grande Announces Manchester Benefit Concert In Powerful Open Letter",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "World & International",
+        "secondary_tags": [
+          "Entertainment"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Entertainment",
+          "World & International"
+        ]
+      },
+      "date": "2017-05-26",
+      "link": "https://www.huffingtonpost.com/entry/ariana-grande-announces-manchester-benefit-concert-in-powerful-open-letter_us_59286e2fe4b0065b20b66c62"
+    },
+    {
+      "source_record_id": 161769,
+      "headline": "Cherish Lily Perrywinkle Body Found: Donald James Smith Arrested In 8-Year-Old Girl's Abduction",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Sports",
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Sports",
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Sports",
+          "World & International"
+        ]
+      },
+      "date": "2013-06-22",
+      "link": "https://www.huffingtonpost.com/entry/charish-lilly-perriwinkle-body-found-dead-donald-james-smith_us_5ba2b4bee4b0c2784da4c352"
+    },
+    {
+      "source_record_id": 65667,
+      "headline": "The Global Search for Education:  If You Teach Them They Will Grow",
+      "original_category": "EDUCATION",
+      "primary_category_ground_truth": "Education",
+      "annotator_1": {
+        "primary": "Education",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Education",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Education",
+        "secondary_tags": []
+      },
+      "date": "2016-06-04",
+      "link": "https://www.huffingtonpost.com/entry/the-global-search-for-edu_b_9724804.html"
+    },
+    {
+      "source_record_id": 177378,
+      "headline": "Fear Of Roasting: Top 10 Things You Need To Roast Like A Pro",
+      "original_category": "FOOD & DRINK",
+      "primary_category_ground_truth": "Lifestyle & Society",
+      "annotator_1": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "date": "2013-01-09",
+      "link": "https://www.huffingtonpost.com/entry/how-to-roast_us_5b9cb3c6e4b03a1dcc810270"
+    },
+    {
+      "source_record_id": 132424,
+      "headline": "'In the Next Room or the Vibrator Play,' Long Beach Playhouse Studio Theatre",
+      "original_category": "ARTS",
+      "primary_category_ground_truth": "Art & Culture",
+      "annotator_1": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "date": "2014-05-03",
+      "link": "https://www.huffingtonpost.com/entry/in-the-next-room-or-the-v_b_5260132.html"
+    },
+    {
+      "source_record_id": 193255,
+      "headline": "Joe Nocera: Another Week, Another Banking Scandal",
+      "original_category": "BUSINESS",
+      "primary_category_ground_truth": "Business & Economy",
+      "annotator_1": {
+        "primary": "Business & Economy",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Business & Economy",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Business & Economy",
+        "secondary_tags": []
+      },
+      "date": "2012-07-21",
+      "link": "https://www.huffingtonpost.comhttp://www.nytimes.com/2012/07/21/opinion/nocera-financial-scandal-scorecard.html?_r=2&ref=opinion"
+    },
+    {
+      "source_record_id": 41072,
+      "headline": "Kickass Google Doodle Celebrates 13 Game-Changing Women",
+      "original_category": "WOMEN",
+      "primary_category_ground_truth": "Women & Gender",
+      "annotator_1": {
+        "primary": "Women & Gender",
+        "secondary_tags": [
+          "Technology",
+          "Sports"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Women & Gender",
+        "secondary_tags": [
+          "Technology",
+          "Sports"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Women & Gender",
+        "secondary_tags": [
+          "Sports",
+          "Technology"
+        ]
+      },
+      "date": "2017-03-08",
+      "link": "https://www.huffingtonpost.com/entry/google-doodle-international-womens-day_us_58bfb71ae4b0d1078ca22d66"
+    },
+    {
+      "source_record_id": 186716,
+      "headline": "Formlabs 3D Printer Is A Desktop-Sized Industrial-Grade Device You Can (Almost) Afford",
+      "original_category": "TECH",
+      "primary_category_ground_truth": "Technology",
+      "annotator_1": {
+        "primary": "Technology",
+        "secondary_tags": [
+          "Crime & Law"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Technology",
+        "secondary_tags": [
+          "Crime & Law"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Technology",
+        "secondary_tags": [
+          "Crime & Law"
+        ]
+      },
+      "date": "2012-09-30",
+      "link": "https://www.huffingtonpost.com/entry/formlabs-3d-printer_us_5bb3590be4b0fa920b96c5bf"
+    },
+    {
+      "source_record_id": 83291,
+      "headline": "Suspected Getaway Car In Paris Attacks Found Abandoned In Suburb",
+      "original_category": "THE WORLDPOST",
+      "primary_category_ground_truth": "World & International",
+      "annotator_1": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "date": "2015-11-15",
+      "link": "https://www.huffingtonpost.com/entry/suspected-getaway-car-in-paris-attacks-found-abandoned-in-suburb_us_56486df6e4b045bf3def7c58"
+    },
+    {
+      "source_record_id": 184868,
+      "headline": "Housing, Transportation Costs Consume Majority Of Middle-Income Earners' Paychecks: Study",
+      "original_category": "MONEY",
+      "primary_category_ground_truth": "Business & Economy",
+      "annotator_1": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "date": "2012-10-19",
+      "link": "https://www.huffingtonpost.com/entry/housing-transportation-costs-grew-faster-than-income-for-urban-middle-class-study_us_5b9c6d8fe4b03a1dcc7e8f1d"
+    },
+    {
+      "source_record_id": 5664,
+      "headline": "Airbnb Bans Open-Invite Parties, Unruly Guests After Fatal Halloween Shooting",
+      "original_category": "BUSINESS",
+      "primary_category_ground_truth": "Business & Economy",
+      "annotator_1": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Crime & Law",
+          "Technology",
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Crime & Law",
+          "Technology",
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Crime & Law",
+          "Technology",
+          "World & International"
+        ]
+      },
+      "date": "2019-12-06",
+      "link": "https://www.huffpost.com/entry/airbnb-bans-open-invite-parties_n_5de9bb22e4b0d50f32b12dae"
+    },
+    {
+      "source_record_id": 131396,
+      "headline": "War - Art - Peace: I",
+      "original_category": "ARTS",
+      "primary_category_ground_truth": "Art & Culture",
+      "annotator_1": {
+        "primary": "Art & Culture",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Art & Culture",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Art & Culture",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2014-05-15",
+      "link": "https://www.huffingtonpost.com/entry/war-art-peace-i_b_5321810.html"
+    },
+    {
+      "source_record_id": 111857,
+      "headline": "Happy Birthday, Louise Bourgeois!",
+      "original_category": "ARTS",
+      "primary_category_ground_truth": "Art & Culture",
+      "annotator_1": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "date": "2014-12-25",
+      "link": "https://www.huffingtonpost.com/entry/louise-bourgeois-birthday_n_6373616.html"
+    },
+    {
+      "source_record_id": 125649,
+      "headline": "3 Ways To Look And Feel Amazing That Really Work",
+      "original_category": "HEALTHY LIVING",
+      "primary_category_ground_truth": "Health & Science",
+      "annotator_1": {
+        "primary": "Health & Science",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Health & Science",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Health & Science",
+        "secondary_tags": []
+      },
+      "date": "2014-07-20",
+      "link": "https://www.huffingtonpost.com/entry/health-tips_b_5599907.html"
+    },
+    {
+      "source_record_id": 105948,
+      "headline": "Feds Raid Alleged 'Maternity Tourism' Hotels That Help Pregnant Foreign Women Give Birth In U.S.",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Technology",
+          "Women & Gender"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Technology",
+          "Women & Gender"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Technology",
+          "Women & Gender"
+        ]
+      },
+      "date": "2015-03-03",
+      "link": "https://www.huffingtonpost.com/entry/maternity-hotel-raid_n_6795924.html"
+    },
+    {
+      "source_record_id": 179134,
+      "headline": "Is That a Bomb in Your Suitcase or... Whoops",
+      "original_category": "TRAVEL",
+      "primary_category_ground_truth": "Lifestyle & Society",
+      "annotator_1": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "date": "2012-12-20",
+      "link": "https://www.huffingtonpost.com/entry/2_us_5b9c93e7e4b03a1dcc7ff9f4"
+    },
+    {
+      "source_record_id": 186368,
+      "headline": "How To Build A Home Theater Screen By A Handy Reddit User (PHOTOS)",
+      "original_category": "HOME & LIVING",
+      "primary_category_ground_truth": "Lifestyle & Society",
+      "annotator_1": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "date": "2012-10-03",
+      "link": "https://www.huffingtonpost.com/entry/diy-home-theater-screen-reddit_us_5b9c5df8e4b03a1dcc7e2179"
+    },
+    {
+      "source_record_id": 54550,
+      "headline": "John Lennon\u2019s Journey To Feminism And Why It Matters In The Era Of Trump",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "date": "2016-10-08",
+      "link": "https://www.huffingtonpost.com/entry/john-lennons-journey-to-feminism-and-why-it-matters_us_57f9601ee4b090dec0e71412"
+    },
+    {
+      "source_record_id": 185474,
+      "headline": "Blueseed Raising Money To Park Ship Full of Startups Near SF",
+      "original_category": "TECH",
+      "primary_category_ground_truth": "Technology",
+      "annotator_1": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "date": "2012-10-13",
+      "link": "https://www.huffingtonpost.com/entry/blueseed-raising-money-to_us_5bb359ece4b0fa920b96d728"
+    },
+    {
+      "source_record_id": 28256,
+      "headline": "Google Employee's Anti-Diversity Memo Prompts Company Rebuke",
+      "original_category": "TECH",
+      "primary_category_ground_truth": "Technology",
+      "annotator_1": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "date": "2017-08-07",
+      "link": "https://www.huffingtonpost.com/entry/google-employees-anti-diversity-memo-prompts-company-rebuke_us_5987d53ee4b041356ec08f63"
+    },
+    {
+      "source_record_id": 200095,
+      "headline": "The Mother's Day Love Flash Mob",
+      "original_category": "PARENTING",
+      "primary_category_ground_truth": "Lifestyle & Society",
+      "annotator_1": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Women & Gender"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Women & Gender",
+        "secondary_tags": [
+          "Lifestyle & Society"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": [
+          "Lifestyle & Society",
+          "Women & Gender"
+        ]
+      },
+      "date": "2012-05-09",
+      "link": "https://www.huffingtonpost.com/entry/mothers-day-love-flash-mob_us_5b9bb0c9e4b03a1dcc799dd1"
+    },
+    {
+      "source_record_id": 60935,
+      "headline": "Daily Binge Watching Linked To Heightened Risk Of Blood Clot Deaths",
+      "original_category": "HEALTHY LIVING",
+      "primary_category_ground_truth": "Health & Science",
+      "annotator_1": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "date": "2016-07-27",
+      "link": "https://www.huffingtonpost.com/entry/tv-watching-hours-links-to-heightened-risk-of-blood-clot-deaths_us_5798eaf0e4b01180b5313868"
+    },
+    {
+      "source_record_id": 126762,
+      "headline": "Robin Thicke's 'Paula' Is The Biggest Flop Of 2014",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Entertainment",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": []
+      },
+      "date": "2014-07-08",
+      "link": "https://www.huffingtonpost.com/entry/robin-thicke-paula-sold-530-uk_n_5568274.html"
+    },
+    {
+      "source_record_id": 1276,
+      "headline": "Trouble For Trump? Jimmy Kimmel Spots An Ominous Sign For The Former President",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Politics"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Entertainment"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Entertainment",
+          "Politics"
+        ]
+      },
+      "date": "2022-01-26",
+      "link": "https://www.huffpost.com/entry/jimmy-kimmel-trump-survey_n_61f0d3dfe4b094ce54a3628a"
+    },
+    {
+      "source_record_id": 56603,
+      "headline": "Baby's Birth On A Rescue Boat In The Mediterranean A Symbol Of Hope For Refugees, Migrants",
+      "original_category": "THE WORLDPOST",
+      "primary_category_ground_truth": "World & International",
+      "annotator_1": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "date": "2016-09-15",
+      "link": "https://www.huffingtonpost.com/entry/baby-rescue-migrant-mediterranean_us_57dae4ede4b04a1497b309d9"
+    },
+    {
+      "source_record_id": 132469,
+      "headline": "How Women Sleep Differently Than Men -- And Why It Matters",
+      "original_category": "HEALTHY LIVING",
+      "primary_category_ground_truth": "Health & Science",
+      "annotator_1": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "Women & Gender"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Women & Gender",
+        "secondary_tags": [
+          "Health & Science"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "Health & Science",
+          "Women & Gender"
+        ]
+      },
+      "date": "2014-05-02",
+      "link": "https://www.huffingtonpost.com/entry/women-men-sleep-differences_n_5242333.html"
+    },
+    {
+      "source_record_id": 188111,
+      "headline": "How FBI Entrapment Is Inventing 'Terrorists'",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "date": "2012-09-15",
+      "link": "https://www.huffingtonpost.comhttp://www.rollingstone.com/politics/blogs/national-affairs/how-fbi-entrapment-is-inventing-terrorists-and-letting-bad-guys-off-the-hook-20120515"
+    },
+    {
+      "source_record_id": 98025,
+      "headline": "'Darwin Versus Deepak': Which Came First, Feelings, or the Brain?",
+      "original_category": "HEALTHY LIVING",
+      "primary_category_ground_truth": "Health & Science",
+      "annotator_1": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "Technology",
+          "Sports"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "Technology",
+          "Sports"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "Sports",
+          "Technology"
+        ]
+      },
+      "date": "2015-06-02",
+      "link": "https://www.huffingtonpost.com/entry/darwin-versus-deepak-whic_b_7481048.html"
+    },
+    {
+      "source_record_id": 100767,
+      "headline": "NYPD Sergeant Shot In The Face While On Duty In Queens",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "date": "2015-05-02",
+      "link": "https://www.huffingtonpost.com/entry/nypd-sergeant-shot-head_n_7197266.html"
+    },
+    {
+      "source_record_id": 193834,
+      "headline": "Mark Zuckerberg: Mobile Is Facebook's Biggest Challenge",
+      "original_category": "TECH",
+      "primary_category_ground_truth": "Technology",
+      "annotator_1": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "date": "2012-07-15",
+      "link": "https://www.huffingtonpost.comhttp://www.bloomberg.com/news/2012-07-13/zuckerberg-says-mobile-shift-is-his-biggest-challenge.html"
+    },
+    {
+      "source_record_id": 101548,
+      "headline": "Bed Rest Made Me a Better Entrepreneur: 5 Key Things",
+      "original_category": "WOMEN",
+      "primary_category_ground_truth": "Women & Gender",
+      "annotator_1": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "date": "2015-04-23",
+      "link": "https://www.huffingtonpost.com/entry/bed-rest-made-me-a-better-entrepreneur-5-key-things_b_7091606.html"
+    },
+    {
+      "source_record_id": 7267,
+      "headline": "Luke Bryan Adopts 18-Year-Old Rescue Dog That Previous Owner Left At The Pound",
+      "original_category": "ENVIRONMENT",
+      "primary_category_ground_truth": "Environment & Climate",
+      "annotator_1": {
+        "primary": "Environment & Climate",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Environment & Climate",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Environment & Climate",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2019-02-13",
+      "link": "https://www.huffpost.com/entry/luke-bryan-adopts-rescue-dog_n_5c63d232e4b07115222b663e"
+    },
+    {
+      "source_record_id": 130176,
+      "headline": "WATCH: The Funniest Penalty Kick Ever",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2014-05-30",
+      "link": "https://www.huffingtonpost.com/entry/soccer-players-falls-penalty-kick-scores_n_5418694.html"
+    },
+    {
+      "source_record_id": 188039,
+      "headline": "\"La F\u00eate de l'Huma\" contre les saboteurs",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": []
+      },
+      "date": "2012-09-16",
+      "link": "https://www.huffingtonpost.com/entry/islam-fete-de-l-humanite_us_5ba2b0d2e4b0c2784da4627f"
+    },
+    {
+      "source_record_id": 33352,
+      "headline": "U.S. Lashed As 'Main Threat' To Environment At UN Ocean Conference",
+      "original_category": "GREEN",
+      "primary_category_ground_truth": "Environment & Climate",
+      "annotator_1": {
+        "primary": "Environment & Climate",
+        "secondary_tags": [
+          "Technology",
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Environment & Climate",
+        "secondary_tags": [
+          "Technology",
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Environment & Climate",
+        "secondary_tags": [
+          "Technology",
+          "World & International"
+        ]
+      },
+      "date": "2017-06-06",
+      "link": "https://www.huffingtonpost.com/entry/us-main-environmental-threat-united-nations_us_593618e4e4b0099e7faeaac2"
+    },
+    {
+      "source_record_id": 128186,
+      "headline": "Unlocking Big Data's Value Potential Through Design with Small Data",
+      "original_category": "BUSINESS",
+      "primary_category_ground_truth": "Business & Economy",
+      "annotator_1": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2014-06-22",
+      "link": "https://www.huffingtonpost.com/entry/unlocking-big-datas-value_b_5519826.html"
+    },
+    {
+      "source_record_id": 109074,
+      "headline": "App Tells Parents And Professors If Students Go To Class",
+      "original_category": "COLLEGE",
+      "primary_category_ground_truth": "Education",
+      "annotator_1": {
+        "primary": "Education",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Education",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Education",
+        "secondary_tags": []
+      },
+      "date": "2015-01-26",
+      "link": "https://www.huffingtonpost.com/entry/class-attendance-app_n_6548474.html"
+    },
+    {
+      "source_record_id": 184734,
+      "headline": "NY Tech Scene -- Rising (Week of 10/22/12)",
+      "original_category": "TECH",
+      "primary_category_ground_truth": "Technology",
+      "annotator_1": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "date": "2012-10-21",
+      "link": "https://www.huffingtonpost.com/entry/ny-tech-scene-rising-w_us_5bb35a3ee4b0fa920b96df3d"
+    },
+    {
+      "source_record_id": 180234,
+      "headline": "Messi Goals Record: Barcelona Star Breaks Gerd Muller Mark With 86th Goal Of 2012 (VIDEO)",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "date": "2012-12-09",
+      "link": "https://www.huffingtonpost.com/entry/messi-goals-record-barcel_us_5bb6c5a6e4b097869fd2c215"
+    },
+    {
+      "source_record_id": 185478,
+      "headline": "Kindle eBook Refunds: Amazon Says Users Are Entitled To Their Money Back",
+      "original_category": "TECH",
+      "primary_category_ground_truth": "Technology",
+      "annotator_1": {
+        "primary": "Technology",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Technology",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Technology",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2012-10-13",
+      "link": "https://www.huffingtonpost.com/entry/kindle-ebook-refund-amazon_us_5bb359efe4b0fa920b96d763"
+    },
+    {
+      "source_record_id": 139884,
+      "headline": "Hubble Space Telescope Helps Solve Mystery Of Universe's Massive Galactic Burnouts",
+      "original_category": "SCIENCE",
+      "primary_category_ground_truth": "Health & Science",
+      "annotator_1": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Health & Science",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2014-02-09",
+      "link": "https://www.huffingtonpost.com/entry/nasa-hubble-space-telescope-universe-galactic-burnouts_us_5baebe31e4b014374e2ecf95"
+    },
+    {
+      "source_record_id": 143277,
+      "headline": "Meet The Reclusive Billionaire Behind The Beanie Baby",
+      "original_category": "BUSINESS",
+      "primary_category_ground_truth": "Business & Economy",
+      "annotator_1": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Politics",
+          "Technology"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Politics",
+          "Technology"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Politics",
+          "Technology"
+        ]
+      },
+      "date": "2014-01-04",
+      "link": "https://www.huffingtonpost.com/entry/billionaire-beanie-baby_us_5bb3058fe4b0480ca661a507"
+    },
+    {
+      "source_record_id": 24520,
+      "headline": "In The Caribbean, Colonialism And Inequality Mean Hurricanes Hit Harder",
+      "original_category": "WORLD NEWS",
+      "primary_category_ground_truth": "World & International",
+      "annotator_1": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "date": "2017-09-22",
+      "link": "https://www.huffingtonpost.com/entry/in-the-caribbean-colonialism-and-inequality-mean-hurricanes_us_59c52f15e4b08d66155041fe"
+    },
+    {
+      "source_record_id": 11407,
+      "headline": "'Black Panther' To Premiere in Saudi Arabia After 35-Year Ban On Theaters",
+      "original_category": "WORLD NEWS",
+      "primary_category_ground_truth": "World & International",
+      "annotator_1": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "World & International",
+        "secondary_tags": []
+      },
+      "date": "2018-04-05",
+      "link": "https://www.huffingtonpost.com/entry/black-panther-will-be-first-film-shown-in-saudi-arabian-theaters-in-decades_us_5ac649bfe4b07a3485e1fc82"
+    },
+    {
+      "source_record_id": 3205,
+      "headline": "Deadly Winter Storm Leaves More Than 4 Million Without Power",
+      "original_category": "U.S. NEWS",
+      "primary_category_ground_truth": "Politics",
+      "annotator_1": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Sports"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Sports"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Sports"
+        ]
+      },
+      "date": "2021-02-16",
+      "link": "https://www.huffpost.com/entry/winter-weather-feb-2021_n_602b8094c5b6741597e45d7e"
+    },
+    {
+      "source_record_id": 37563,
+      "headline": "Trevor Noah Explains Why Alex Jones' 'Performance' Should Terrify You",
+      "original_category": "COMEDY",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "date": "2017-04-19",
+      "link": "https://www.huffingtonpost.com/entry/daily-show-alex-jones-performance-artist_us_58f6dfabe4b05b9d613e55b4"
+    },
+    {
+      "source_record_id": 94378,
+      "headline": "USF Student Who Deleted Emails About His Sexual Assault Charge Latest To Lose In Title IX Lawsuit",
+      "original_category": "COLLEGE",
+      "primary_category_ground_truth": "Education",
+      "annotator_1": {
+        "primary": "Education",
+        "secondary_tags": [
+          "Crime & Law",
+          "Technology"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Education",
+        "secondary_tags": [
+          "Crime & Law",
+          "Technology"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Education",
+        "secondary_tags": [
+          "Crime & Law",
+          "Technology"
+        ]
+      },
+      "date": "2015-07-14",
+      "link": "https://www.huffingtonpost.com/entry/accused-students-title-ix_us_55a40642e4b0a47ac15d02b8"
+    },
+    {
+      "source_record_id": 115838,
+      "headline": "Residents In This City Chose To Raise Their Own Taxes To Subsidize Preschool, Increase Teacher Pay",
+      "original_category": "POLITICS",
+      "primary_category_ground_truth": "Politics",
+      "annotator_1": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Technology",
+          "Business & Economy",
+          "Education"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Technology",
+          "Business & Economy",
+          "Education"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Politics",
+        "secondary_tags": [
+          "Business & Economy",
+          "Education",
+          "Technology"
+        ]
+      },
+      "date": "2014-11-09",
+      "link": "https://www.huffingtonpost.com/entry/seattle-preschool-subsidy_n_6129546.html"
+    },
+    {
+      "source_record_id": 134797,
+      "headline": "Climate Change Threats To 'The Least Of These' Compel Evangelical Christians To Act",
+      "original_category": "ENVIRONMENT",
+      "primary_category_ground_truth": "Environment & Climate",
+      "annotator_1": {
+        "primary": "Environment & Climate",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Environment & Climate",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Environment & Climate",
+        "secondary_tags": []
+      },
+      "date": "2014-04-05",
+      "link": "https://www.huffingtonpost.com/entry/climate-change-evangelicals-poverty-health_us_5bb15429e4b09bbe9a5ea53c"
+    },
+    {
+      "source_record_id": 75071,
+      "headline": "2 Los Angeles Cops Charged With Sexually Assaulting 4 Women While On Duty",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Women & Gender"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Women & Gender"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "Women & Gender"
+        ]
+      },
+      "date": "2016-02-17",
+      "link": "https://www.huffingtonpost.com/entry/lapd-cops-charged-sexual-assault_us_56c4d449e4b0b40245c8ca22"
+    },
+    {
+      "source_record_id": 26653,
+      "headline": "The Terrifying Look Of Harvey Before It Hits The Texas Coast",
+      "original_category": "GREEN",
+      "primary_category_ground_truth": "Environment & Climate",
+      "annotator_1": {
+        "primary": "Environment & Climate",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Environment & Climate",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Environment & Climate",
+        "secondary_tags": []
+      },
+      "date": "2017-08-26",
+      "link": "https://www.huffingtonpost.com/entry/harvey-images-before-landfall-texas-coast_us_59a0b9e8e4b06d67e337b2e2"
+    },
+    {
+      "source_record_id": 189430,
+      "headline": "Artists Who Were Late Bloomers: Van Gogh, Monet, And More Masters Than You'd Think (PHOTOS)",
+      "original_category": "CULTURE & ARTS",
+      "primary_category_ground_truth": "Art & Culture",
+      "annotator_1": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "date": "2012-09-01",
+      "link": "https://www.huffingtonpost.com/entry/late-blooming-artists_us_5bb22fe5e4b0171db69e2a72"
+    },
+    {
+      "source_record_id": 65092,
+      "headline": "This Is Even Bigger Than Brock: What We Can All Do to Dismantle Rape Culture",
+      "original_category": "WOMEN",
+      "primary_category_ground_truth": "Women & Gender",
+      "annotator_1": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "date": "2016-06-11",
+      "link": "https://www.huffingtonpost.com/entry/this-is-even-bigger-than-_b_10384210.html"
+    },
+    {
+      "source_record_id": 5577,
+      "headline": "What To Watch On Netflix That\u2019s New This Week (Dec. 15-21)",
+      "original_category": "HOME & LIVING",
+      "primary_category_ground_truth": "Lifestyle & Society",
+      "annotator_1": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Lifestyle & Society",
+        "secondary_tags": []
+      },
+      "date": "2019-12-21",
+      "link": "https://www.huffpost.com/entry/the-two-popes-netflix-movie-anthony-hopkins_l_5dfc042fe4b0843d35f8f0d3"
+    },
+    {
+      "source_record_id": 94111,
+      "headline": "Your Active Social Life Could Help You Live Longer",
+      "original_category": "HEALTHY LIVING",
+      "primary_category_ground_truth": "Health & Science",
+      "annotator_1": {
+        "primary": "Health & Science",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Health & Science",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Health & Science",
+        "secondary_tags": []
+      },
+      "date": "2015-07-17",
+      "link": "https://www.huffingtonpost.com/entry/socialize-to-live-longer_us_55a95376e4b0caf721b2c310"
+    },
+    {
+      "source_record_id": 44060,
+      "headline": "The Bottom Line: 'Homesick For Another World' By Ottessa Moshfegh",
+      "original_category": "ARTS & CULTURE",
+      "primary_category_ground_truth": "Art & Culture",
+      "annotator_1": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "date": "2017-02-03",
+      "link": "https://www.huffingtonpost.com/entry/ottessa-moshfegh-homesick-for-another-world_us_58948f74e4b0406131364c52"
+    },
+    {
+      "source_record_id": 68796,
+      "headline": "Margo Martindale Knows Her Way Around Southern Stereotypes, But Here's Where She Draws The Line",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2016-04-29",
+      "link": "https://www.huffingtonpost.com/entry/margo-martindale-mothers-day_us_57226e5de4b01a5ebde50e62"
+    },
+    {
+      "source_record_id": 84939,
+      "headline": "Here\u2019s How You Know The Economy Is Not Growing Fast Enough",
+      "original_category": "BUSINESS",
+      "primary_category_ground_truth": "Business & Economy",
+      "annotator_1": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Sports"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "Business & Economy"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Business & Economy",
+        "secondary_tags": [
+          "Business & Economy",
+          "Sports"
+        ]
+      },
+      "date": "2015-10-28",
+      "link": "https://www.huffingtonpost.com/entry/fed-interest-rate-october_us_5630faa1e4b0631799105f71"
+    },
+    {
+      "source_record_id": 99596,
+      "headline": "Rediscovering The Rock And Roll Movement That A Dictator Destroyed",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Entertainment",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": []
+      },
+      "date": "2015-05-15",
+      "link": "https://www.huffingtonpost.com/entry/cambodian-rock-and-roll_n_7111934.html"
+    },
+    {
+      "source_record_id": 108187,
+      "headline": "Flourishing Aboriginal Art",
+      "original_category": "ARTS",
+      "primary_category_ground_truth": "Art & Culture",
+      "annotator_1": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Art & Culture",
+        "secondary_tags": []
+      },
+      "date": "2015-02-05",
+      "link": "https://www.huffingtonpost.com/entry/flourishing-aboriginal-art_b_6615078.html"
+    },
+    {
+      "source_record_id": 136744,
+      "headline": "13 Classic Photos Of Phil Jackson Back When He Was The Knicks' Hipster Iconoclast",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "date": "2014-03-15",
+      "link": "https://www.huffingtonpost.com/entry/phil-jackson-knicks-hipster-photos_us_5bb74f8ae4b097869fd4f5cd"
+    },
+    {
+      "source_record_id": 70603,
+      "headline": "9-Year-Old Girl Shuts Down Concerns That Crime Reporting Makes Her Less 'Cute'",
+      "original_category": "WOMEN",
+      "primary_category_ground_truth": "Women & Gender",
+      "annotator_1": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Women & Gender",
+        "secondary_tags": []
+      },
+      "date": "2016-04-08",
+      "link": "https://www.huffingtonpost.com/entry/hilde-kate-lysiak-orange-street-news_us_5707bdcfe4b0c4e26a226fb8"
+    },
+    {
+      "source_record_id": 73258,
+      "headline": "Apple Must Clear Another Hurdle In NY Encryption Case",
+      "original_category": "TECH",
+      "primary_category_ground_truth": "Technology",
+      "annotator_1": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "date": "2016-03-08",
+      "link": "https://www.huffingtonpost.com/entry/iphone-encryption-case_us_56de1479e4b0ffe6f8ea6e7f"
+    },
+    {
+      "source_record_id": 175673,
+      "headline": "Critics Eating Crow: Google+ Becomes Second Largest Social Platform",
+      "original_category": "TECH",
+      "primary_category_ground_truth": "Technology",
+      "annotator_1": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Technology",
+        "secondary_tags": []
+      },
+      "date": "2013-01-27",
+      "link": "https://www.huffingtonpost.com/entry/google-popularity_us_5bb36019e4b0fa920b973947"
+    },
+    {
+      "source_record_id": 13101,
+      "headline": "Vladimir Putin Juggles Soccer Ball To Hype World Cup",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2018-03-06",
+      "link": "https://www.huffingtonpost.com/entry/vladimir-putin-world-cup_us_5a9eaeb3e4b0a0ba4ad7e558"
+    },
+    {
+      "source_record_id": 93149,
+      "headline": "Seth Rogen Destroys Christmas In 'The Night Before' Trailer",
+      "original_category": "ENTERTAINMENT",
+      "primary_category_ground_truth": "Entertainment",
+      "annotator_1": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Entertainment",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "date": "2015-07-28",
+      "link": "https://www.huffingtonpost.com/entry/the-night-before-trailer_us_55b7da88e4b0a13f9d1a8dad"
+    },
+    {
+      "source_record_id": 87810,
+      "headline": "Ghost Hunting Couple, Reno Man All Died From Gunshot Wounds: Cops",
+      "original_category": "CRIME",
+      "primary_category_ground_truth": "Crime & Law",
+      "annotator_1": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Crime & Law",
+        "secondary_tags": [
+          "World & International"
+        ]
+      },
+      "date": "2015-09-26",
+      "link": "https://www.huffingtonpost.com/entry/debra-mark-constantino-dead_us_5606b53de4b0dd850307c6a6"
+    },
+    {
+      "source_record_id": 99477,
+      "headline": "This Sea Turtle's 3-D Printed Beak Is Cool As Shell",
+      "original_category": "GREEN",
+      "primary_category_ground_truth": "Environment & Climate",
+      "annotator_1": {
+        "primary": "Environment & Climate",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Environment & Climate",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Environment & Climate",
+        "secondary_tags": []
+      },
+      "date": "2015-05-17",
+      "link": "https://www.huffingtonpost.com/entry/turtle-3d-printed-beak_n_7301666.html"
+    },
+    {
+      "source_record_id": 52065,
+      "headline": "The Most Important Reason For You To Vote This Election Has Nothing To Do With Clinton Or Trump",
+      "original_category": "POLITICS",
+      "primary_category_ground_truth": "Politics",
+      "annotator_1": {
+        "primary": "Politics",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Politics",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Politics",
+        "secondary_tags": []
+      },
+      "date": "2016-11-05",
+      "link": "https://www.huffingtonpost.com/entry/the-most-important-reason_2_b_12804970.html"
+    },
+    {
+      "source_record_id": 65043,
+      "headline": "Rape Survivor's Son Petitions The NCAA To Ban Violent Athletes",
+      "original_category": "SPORTS",
+      "primary_category_ground_truth": "Sports",
+      "annotator_1": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "annotator_2": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "consensus_labels": {
+        "primary": "Sports",
+        "secondary_tags": []
+      },
+      "date": "2016-06-11",
+      "link": "https://www.huffingtonpost.com/entry/ncaa-ban-violent-athletes_us_575b0288e4b0ced23ca7f72e"
+    },
+    {
+      "source_record_id": 101056,
+      "headline": "Transitioning From the Wholesale to Retail Flip",
+      "original_category": "EDUCATION",
+      "primary_category_ground_truth": "Education",
+      "annotator_1": {
+        "primary": "Education",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "annotator_2": {
+        "primary": "Education",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "consensus_labels": {
+        "primary": "Education",
+        "secondary_tags": [
+          "Technology"
+        ]
+      },
+      "date": "2015-04-29",
+      "link": "https://www.huffingtonpost.com/entry/transitioning-from-the-wh_b_7162778.html"
+    }
+  ],
+  "benchmark_classification": "Exploratory Annotation Pilot (Heuristic Keyword-Assisted Baseline)",
+  "notice": "This file represents an automated heuristic annotation pilot. It is NOT validated human ground truth. Official multi-label evaluation ground truth is stored in backend/data/multilabel_gold_test.json."
+}

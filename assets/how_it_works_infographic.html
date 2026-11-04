@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsIntel AI — Visual Architecture & Workflow Explainer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #030712;
+      color: #f3f4f6;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2.5rem 1.5rem;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1360px;
+      width: 100%;
+      background: radial-gradient(circle at 50% 0%, rgba(34, 229, 255, 0.08) 0%, rgba(8, 14, 26, 0.95) 70%);
+      border: 1px solid rgba(34, 229, 255, 0.25);
+      border-radius: 20px;
+      padding: 3rem;
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.8), 0 0 30px rgba(34, 229, 255, 0.1);
+      position: relative;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+    .badge-pill {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #22e5ff;
+      background: rgba(34, 229, 255, 0.1);
+      border: 1px solid rgba(34, 229, 255, 0.3);
+      padding: 0.35rem 1rem;
+      border-radius: 9999px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-family: 'Chakra Petch', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #ffffff;
+      margin-bottom: 0.75rem;
+    }
+    h1 span {
+      background: linear-gradient(135deg, #22e5ff, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      max-width: 780px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* Workflow Pipeline Grid */
+    .pipeline-grid {
+      display: grid;
+      grid-template-columns: 1fr 40px 1.4fr 40px 1.1fr;
+      align-items: center;
+      gap: 1rem;
+      position: relative;
+    }
+
+    .stage-card {
+      background: rgba(15, 23, 42, 0.75);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 1.75rem;
+      position: relative;
+      backdrop-filter: blur(12px);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .stage-card:hover {
+      border-color: rgba(34, 229, 255, 0.5);
+      transform: translateY(-2px);
+    }
+
+    .stage-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 0.75rem;
+    }
+    .stage-number {
+      font-family: 'Chakra Petch', sans-serif;
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: #22e5ff;
+      background: rgba(34, 229, 255, 0.12);
+      border: 1px solid rgba(34, 229, 255, 0.3);
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+    }
+    .stage-title {
+      font-family: 'Chakra Petch', sans-serif;
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    /* Stage 1: News Feed Items */
+    .headline-stream {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .headline-item {
+      background: rgba(30, 41, 59, 0.7);
+      border-left: 3px solid #38bdf8;
+      border-radius: 6px;
+      padding: 0.85rem 1rem;
+      font-size: 0.88rem;
+      line-height: 1.4;
+      color: #e2e8f0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .headline-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      color: #64748b;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Arrows */
+    .arrow-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #22e5ff;
+      font-size: 1.75rem;
+      animation: pulseArrow 2s infinite ease-in-out;
+    }
+    @keyframes pulseArrow {
+      0%, 100% { opacity: 0.4; transform: translateX(0); }
+      50% { opacity: 1; transform: translateX(4px); }
+    }
+
+    /* Stage 2: Central AI Engine */
+    .engine-box {
+      border: 1px solid rgba(34, 229, 255, 0.4);
+      background: radial-gradient(circle at center, rgba(34, 229, 255, 0.06) 0%, rgba(15, 23, 42, 0.9) 100%);
+      box-shadow: 0 0 25px rgba(34, 229, 255, 0.12);
+    }
+    .engine-layers {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+    .engine-layer {
+      background: rgba(2, 6, 23, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+    }
+    .layer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.35rem;
+    }
+    .layer-name {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #38bdf8;
+    }
+    .layer-tag {
+      font-size: 0.68rem;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .tag-speed { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .tag-math { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+    .tag-explain { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+
+    .layer-desc {
+      font-size: 0.78rem;
+      color: #94a3b8;
+      line-height: 1.4;
+    }
+
+    /* Stage 3: Classified Categories Output */
+    .output-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+    .output-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(30, 41, 59, 0.6);
+      border-radius: 8px;
+      padding: 0.65rem 0.9rem;
+      border-left: 3px solid;
+    }
+    .cat-tech { border-color: #38bdf8; }
+    .cat-politics { border-color: #ef4444; }
+    .cat-sports { border-color: #10b981; }
+    .cat-biz { border-color: #f59e0b; }
+    .cat-crime { border-color: #ec4899; }
+    .cat-world { border-color: #8b5cf6; }
+
+    .cat-info {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: #f8fafc;
+    }
+    .cat-conf {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.78rem;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.1);
+      padding: 0.2rem 0.45rem;
+      border-radius: 4px;
+    }
+
+    /* Bottom Governance Bar */
+    .bottom-bar {
+      margin-top: 2rem;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(34, 229, 255, 0.2);
+      border-radius: 12px;
+      padding: 1.25rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .gov-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .gov-icon {
+      font-size: 1.5rem;
+    }
+    .gov-text h4 {
+      font-size: 0.9rem;
+      color: #f8fafc;
+      font-family: 'Chakra Petch', sans-serif;
+    }
+    .gov-text p {
+      font-size: 0.75rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- HEADER -->
+    <div class="header">
+      <div class="badge-pill">END-TO-END SYSTEM PIPELINE</div>
+      <h1>How <span>NewsIntel AI</span> Actually Works</h1>
+      <p class="subtitle">
+        Real-world news headlines enter the system as unorganized raw text, get evaluated by a high-speed calibrated NLP engine, and are automatically routed into 13 verified topic domains in under 1 millisecond.
+      </p>
+    </div>
+
+    <!-- 3-STAGE PIPELINE -->
+    <div class="pipeline-grid">
+
+      <!-- STAGE 1: INPUT -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-number">01</span>
+          <span class="stage-title">Raw Headlines Ingest</span>
+        </div>
+        <p style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 1rem;">
+          Raw news headlines entered via UI or REST API payloads:
+        </p>
+        <div class="headline-stream">
+          <div class="headline-item">
+            <span>"Apple unveils M4 Pro chips with next-gen neural engine accelerators"</span>
+            <div class="headline-meta">
+              <span>SOURCE: TECH DISPATCH</span>
+              <span>10 WORDS</span>
+            </div>
+          </div>
+          <div class="headline-item" style="border-left-color: #ef4444;">
+            <span>"Senate passes landmark bipartisan climate and clean energy legislation"</span>
+            <div class="headline-meta">
+              <span>SOURCE: CAPITOL NEWS</span>
+              <span>9 WORDS</span>
+            </div>
+          </div>
+          <div class="headline-item" style="border-left-color: #10b981;">
+            <span>"Real Madrid claims Champions League victory in thrilling 3-2 final"</span>
+            <div class="headline-meta">
+              <span>SOURCE: GLOBAL SPORTS</span>
+              <span>11 WORDS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ARROW 1 -->
+      <div class="arrow-divider">➔</div>
+
+      <!-- STAGE 2: AI INFERENCE CORE -->
+      <div class="stage-card engine-box">
+        <div class="stage-header">
+          <span class="stage-number">02</span>
+          <span class="stage-title">NewsIntel AI Engine</span>
+        </div>
+        
+        <div class="engine-layers">
+          <!-- Layer 1: LRU Cache -->
+          <div class="engine-layer" style="border-color: rgba(52, 211, 153, 0.4);">
+            <div class="layer-top">
+              <span class="layer-name">⚡ In-Memory LRU Cache</span>
+              <span class="layer-tag tag-speed">&lt;0.1ms LATENCY</span>
+            </div>
+            <p class="layer-desc">
+              Checks 1,024 memory slots. If identical headline was previously analyzed, returns instant answer without re-computation.
+            </p>
+          </div>
+
+          <!-- Layer 2: Preprocess & TF-IDF -->
+          <div class="engine-layer">
+            <div class="layer-top">
+              <span class="layer-name">🧹 NLP Normalization & TF-IDF</span>
+              <span class="layer-tag tag-math">40,000 N-GRAMS</span>
+            </div>
+            <p class="layer-desc">
+              Cleans noise, normalizes Unicode NFKC, removes stop-words, and extracts unigram + bigram statistical word weights.
+            </p>
+          </div>
+
+          <!-- Layer 3: Platt LinearSVC -->
+          <div class="engine-layer" style="border-color: rgba(168, 85, 247, 0.4);">
+            <div class="layer-top">
+              <span class="layer-name">🧠 LinearSVC + 5-Fold Platt Scaling</span>
+              <span class="layer-tag tag-math">13 HYPERPLANES</span>
+            </div>
+            <p class="layer-desc">
+              One-vs-Rest maximum-margin classification calibrated via logistic sigmoids into genuine 0–100% probabilities (&Sigma;p<sub>i</sub> = 1.0).
+            </p>
+          </div>
+
+          <!-- Layer 4: Explainability -->
+          <div class="engine-layer">
+            <div class="layer-top">
+              <span class="layer-name">🔍 Token Explainability Attributor</span>
+              <span class="layer-tag tag-explain">FEATURE WEIGHTS</span>
+            </div>
+            <p class="layer-desc">
+              Identifies which exact words (e.g. <em>"chips"</em>, <em>"neural"</em>, <em>"climate"</em>) drove the prediction.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ARROW 2 -->
+      <div class="arrow-divider">➔</div>
+
+      <!-- STAGE 3: CLASSIFIED TOPIC CATEGORIES -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-number">03</span>
+          <span class="stage-title">Automated Classification</span>
+        </div>
+        <p style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 1rem;">
+          Headlines sorted into 13 domains with verified confidence:
+        </p>
+
+        <div class="output-grid">
+          <div class="output-row cat-tech">
+            <div class="cat-info">💻 Technology</div>
+            <span class="cat-conf">77.3% Conf</span>
+          </div>
+          <div class="output-row cat-politics">
+            <div class="cat-info">🏛️ Politics</div>
+            <span class="cat-conf">65.0% Conf</span>
+          </div>
+          <div class="output-row cat-sports">
+            <div class="cat-info">⚽ Sports</div>
+            <span class="cat-conf">74.4% Conf</span>
+          </div>
+          <div class="output-row cat-biz">
+            <div class="cat-info">💼 Business & Economy</div>
+            <span class="cat-conf">55.3% Conf</span>
+          </div>
+          <div class="output-row cat-crime">
+            <div class="cat-info">⚖️ Crime & Law</div>
+            <span class="cat-conf">74.2% Conf</span>
+          </div>
+          <div class="output-row cat-world">
+            <div class="cat-info">🌍 World News</div>
+            <span class="cat-conf">69.3% Conf</span>
+          </div>
+          <div style="text-align: center; font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">
+            + 7 more domains (Education, Health, Climate...)
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM BAR: AUDIT TRAIL & HUD -->
+    <div class="bottom-bar">
+      <div class="gov-item">
+        <span class="gov-icon">💾</span>
+        <div class="gov-text">
+          <h4>Immutable SQLite Audit Trail</h4>
+          <p>Every inference logged in <code>predictions.db</code> with timestamp, latency &amp; confidence for AI governance.</p>
+        </div>
+      </div>
+      <div class="gov-item">
+        <span class="gov-icon">⚡</span>
+        <div class="gov-text">
+          <h4>Sub-Millisecond Response</h4>
+          <p>Repeated queries resolved in 0.084ms (&lt;0.1ms) via memory caching.</p>
+        </div>
+      </div>
+      <div class="gov-item">
+        <span class="gov-icon">🖥️</span>
+        <div class="gov-text">
+          <h4>Interactive JARVIS Cockpit</h4>
+          <p>Real-time visual telemetry, audio feedback &amp; 240&deg; calibrated arc gauge.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

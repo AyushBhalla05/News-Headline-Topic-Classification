@@ -1,0 +1,98 @@
+{
+  "manifest_version": "2.3.0-15class-milestone1-isolated",
+  "dataset_name": "HuffPost News Category Dataset (v3)",
+  "author": "Rishabh Misra",
+  "citation": "R. Misra. News Category Dataset. arXiv:2209.11429, 2022.",
+  "url": "https://huggingface.co/datasets/heegyu/news-category-dataset",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "attribution": "Misra, Rishabh. News Category Dataset. arXiv:2209.11429 (2022).",
+  "raw_file_size_bytes": 87295572,
+  "mathematical_reconciliation": {
+    "total_raw_records": 209527,
+    "data_hygiene_exclusions": {
+      "empty_records": 6,
+      "ultra_short_records_lt_3_words": 1690,
+      "exact_duplicates": 1531,
+      "overlap_short_and_duplicate": 129,
+      "net_unique_excluded": 3092,
+      "exclusion_formula": "net_unique_excluded = short + duplicate - overlap (1690 + 1531 - 129 = 3092)"
+    },
+    "total_clean_unique_records": 206435,
+    "reconciliation_equation": "total_raw == net_unique_excluded + total_clean_unique (209527 == 3092 + 206435)",
+    "clean_record_distribution": {
+      "clean_mapped_to_13_categories": 155527,
+      "clean_unmapped_in_original_categories": 50908,
+      "mapping_equation": "total_clean_unique == clean_mapped + clean_unmapped (206435 == 155527 + 50908)"
+    }
+  },
+  "target_categories_13_active": {
+    "Art & Culture": 3838,
+    "Business & Economy": 7686,
+    "Crime & Law": 3549,
+    "Education": 2146,
+    "Entertainment": 22521,
+    "Environment & Climate": 3958,
+    "Health & Science": 8813,
+    "Lifestyle & Society": 46280,
+    "Politics": 36712,
+    "Sports": 5063,
+    "Technology": 2045,
+    "Women & Gender": 3418,
+    "World & International": 9498
+  },
+  "target_categories_2_inactive": {
+    "Automobile & Transport": "0 standalone records in HuffPost v3. Maintained as inactive in hierarchical taxonomy schema.",
+    "Weather & Natural Disasters": "0 standalone records in HuffPost v3. CrisisNLP evaluated and quarantined due to tweet domain mismatch."
+  },
+  "unmapped_categories_breakdown": {
+    "BLACK VOICES": 4544,
+    "DIVORCE": 3364,
+    "FIFTY": 1381,
+    "GOOD NEWS": 1392,
+    "IMPACT": 3443,
+    "LATINO VOICES": 1129,
+    "MEDIA": 2935,
+    "QUEER VOICES": 6304,
+    "RELIGION": 2538,
+    "WEDDINGS": 3566,
+    "WEIRD NEWS": 2774,
+    "WELLNESS": 17538
+  },
+  "balanced_dataset_design": {
+    "strategy": "Stratified random sampling capped at 2,000 samples per active category with gold benchmark reservation and near-duplicate quarantine",
+    "total_samples": 26000,
+    "supervision_paradigm": "Track 1: Single-Label Primary Topic (20,800 train); Track 2: Genuine Multi-Label (150 train pilot, 50 val, 50 gold test)",
+    "splits": {
+      "train_records": 20800,
+      "val_records": 2600,
+      "test_records": 2600
+    },
+    "split_ratio": "80% / 10% / 10%",
+    "leakage_auditing": {
+      "exact_overlap_across_all_splits": 0,
+      "gold_benchmark_in_train": 0,
+      "gold_benchmark_in_val": 0,
+      "gold_benchmark_in_test": 50,
+      "val_quarantined_and_replaced": 6,
+      "test_quarantined_and_replaced": 7,
+      "max_val_train_cosine_similarity": 0.7888,
+      "max_test_train_cosine_similarity": 0.7983,
+      "val_train_matches_gte_80": 0,
+      "test_train_matches_gte_80": 0
+    }
+  },
+  "benchmarks": {
+    "gold_test_benchmark": {
+      "file": "backend/data/multilabel_gold_test.json",
+      "sample_count": 50,
+      "methodology": "Expert-codified protocol agreement (Pass A vs Pass B) with adjudication log",
+      "status": "Pilot Multi-Label Gold Test Benchmark (Small evaluation subset)"
+    },
+    "heuristic_annotation_pilot": {
+      "file": "backend/data/multilabel_validation_subset.json",
+      "sample_count": 100,
+      "methodology": "Programmatic keyword-heuristic cross-domain pilot",
+      "status": "Exploratory Annotation Pilot (Not Human Ground Truth)"
+    }
+  }
+}

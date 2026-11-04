@@ -1,0 +1,128 @@
+[
+  {
+    "source_record_id": 93075,
+    "headline": "Study Explains Why Some Movies Are So Freakin' Scary",
+    "pass_a_primary": "Entertainment",
+    "pass_b_primary": "Health & Science",
+    "adjudicated_primary": "Health & Science",
+    "adjudicated_secondary": ["Entertainment"],
+    "rationale": "Protocol Rule 3 applies: Scientific Mechanism vs. Entertainment Medium. The grammatical subject is an empirical psychological/neurobiological research study explaining fear mechanisms in human brains when viewing cinema. Primary is Health & Science; Entertainment is secondary."
+  },
+  {
+    "source_record_id": 121718,
+    "headline": "University Considered Community Service Too 'Punitive' For Rape Punishment",
+    "pass_a_primary": "Education",
+    "pass_b_primary": "Crime & Law",
+    "adjudicated_primary": "Education",
+    "adjudicated_secondary": ["Crime & Law", "Women & Gender"],
+    "rationale": "Protocol Rule A1 applies: The institutional administrative decision-maker and core policy venue is the university administration ('University Considered...'). While the sanction concerns sexual violence, the article focuses on higher-education disciplinary failure. Primary is Education; Crime & Law and Women & Gender are secondary."
+  },
+  {
+    "source_record_id": 109286,
+    "headline": "American Sniper and the Fetishization of Patriotism",
+    "pass_a_primary": "Art & Culture",
+    "pass_b_primary": "Entertainment",
+    "adjudicated_primary": "Entertainment",
+    "adjudicated_secondary": ["Art & Culture", "Politics"],
+    "rationale": "Film review and cultural critique of Clint Eastwood's commercial studio feature film 'American Sniper'. Under standard taxonomy guidelines, Hollywood cinematic releases belong to Entertainment, with Art & Culture and Politics secondary."
+  },
+  {
+    "source_record_id": 76419,
+    "headline": "How People React When You Tell Them You're Not Drinking Anymore",
+    "pass_a_primary": "Entertainment",
+    "pass_b_primary": "Lifestyle & Society",
+    "adjudicated_primary": "Lifestyle & Society",
+    "adjudicated_secondary": ["Entertainment"],
+    "rationale": "Humorous personal narrative regarding personal sobriety and social interactions. Although filed by the publisher under COMEDY, the subject matter is lifestyle habit change and social etiquette. Primary is Lifestyle & Society; Entertainment is secondary."
+  },
+  {
+    "source_record_id": 124128,
+    "headline": "This Adorable Baby Sea Lion Needed Help, So It Hopped On A Surf Board",
+    "pass_a_primary": "Lifestyle & Society",
+    "pass_b_primary": "Environment & Climate",
+    "adjudicated_primary": "Environment & Climate",
+    "adjudicated_secondary": ["Lifestyle & Society"],
+    "rationale": "Wildlife interaction report regarding marine mammal rescue. The core subject is a wild sea lion in its ocean habitat. Primary is Environment & Climate; Lifestyle & Society is secondary."
+  },
+  {
+    "source_record_id": 101421,
+    "headline": "How To Be Nicer, Healthier And More Focused In 15 Minutes",
+    "pass_a_primary": "Health & Science",
+    "pass_b_primary": "Lifestyle & Society",
+    "adjudicated_primary": "Health & Science",
+    "adjudicated_secondary": ["Lifestyle & Society"],
+    "rationale": "Behavioral psychology guidance targeting cognitive focus, stress reduction, and physical health optimization. Primary is Health & Science; Lifestyle & Society is secondary."
+  },
+  {
+    "source_record_id": 88723,
+    "headline": "Jon Stewart Sums Up Legislative Process: 'So F*****g Boring'",
+    "pass_a_primary": "Politics",
+    "pass_b_primary": "Entertainment",
+    "adjudicated_primary": "Politics",
+    "adjudicated_secondary": ["Entertainment"],
+    "rationale": "Protocol Rule 2 applies: Substance Over Satire. The core topic is congressional gridlock and the US legislative procedure, delivered via political satire. Primary is Politics; Entertainment is secondary."
+  },
+  {
+    "source_record_id": 114002,
+    "headline": "Ferguson and Palestine: Different Issues, Same Problem",
+    "pass_a_primary": "Politics",
+    "pass_b_primary": "World & International",
+    "adjudicated_primary": "Politics",
+    "adjudicated_secondary": ["World & International", "Crime & Law"],
+    "rationale": "Comparative civil rights essay analyzing domestic US law enforcement in Ferguson, Missouri against the Israeli-Palestinian conflict. Domestic civil rights movement frames the thesis. Primary is Politics; World & International and Crime & Law are secondary."
+  },
+  {
+    "source_record_id": 73746,
+    "headline": "Kam Chancellor Got The Cops Called On Him For Looking At A Gym",
+    "pass_a_primary": "Sports",
+    "pass_b_primary": "Crime & Law",
+    "adjudicated_primary": "Sports",
+    "adjudicated_secondary": ["Crime & Law"],
+    "rationale": "The grammatical subject is Seattle Seahawks NFL safety Kam Chancellor, and the incident occurred while he was inspecting an athletic gym. Primary is Sports; Crime & Law is secondary."
+  },
+  {
+    "source_record_id": 77823,
+    "headline": "Phones And Bedrooms Just Don't Mix. I Learned That The Hard Way.",
+    "pass_a_primary": "Technology",
+    "pass_b_primary": "Lifestyle & Society",
+    "adjudicated_primary": "Technology",
+    "adjudicated_secondary": ["Health & Science", "Lifestyle & Society"],
+    "rationale": "Consumer technology habit column analyzing smartphone hardware impact on nocturnal rest and digital addiction. Primary is Technology; Health & Science and Lifestyle & Society are secondary."
+  },
+  {
+    "source_record_id": 73356,
+    "headline": "Apple VP: The FBI wants to roll back safeguards that keep us a step ahead of criminals",
+    "pass_a_primary": "Technology",
+    "pass_b_primary": "Crime & Law",
+    "adjudicated_primary": "Technology",
+    "adjudicated_secondary": ["Crime & Law", "Politics"],
+    "rationale": "Subject is Apple corporate executive describing device operating system cryptography and hardware encryption safeguards against government backdoors. Primary is Technology; Crime & Law and Politics are secondary."
+  },
+  {
+    "source_record_id": 94483,
+    "headline": "Olympic Hammer Thrower Amanda Bingson Is A Body Positivity Queen",
+    "pass_a_primary": "Women & Gender",
+    "pass_b_primary": "Sports",
+    "adjudicated_primary": "Women & Gender",
+    "adjudicated_secondary": ["Sports"],
+    "rationale": "Feature profile centered on female body image standards, self-acceptance, and feminist discourse through an athletic profile. Primary is Women & Gender; Sports is secondary."
+  },
+  {
+    "source_record_id": 57118,
+    "headline": "Watch These Actresses Rally Women To Stop Donald Trump",
+    "pass_a_primary": "Politics",
+    "pass_b_primary": "Women & Gender",
+    "adjudicated_primary": "Politics",
+    "adjudicated_secondary": ["Women & Gender", "Entertainment"],
+    "rationale": "Electoral campaign mobilization specifically targeting presidential ballot voting. Primary is Politics; Women & Gender and Entertainment are secondary."
+  },
+  {
+    "source_record_id": 119974,
+    "headline": "Growing Up in Transylvania",
+    "pass_a_primary": "World & International",
+    "pass_b_primary": "Lifestyle & Society",
+    "adjudicated_primary": "World & International",
+    "adjudicated_secondary": ["Lifestyle & Society"],
+    "rationale": "Regional geopolitical and cultural memoir set in post-Cold War Romania (Transylvania). Primary is World & International; Lifestyle & Society is secondary."
+  }
+]

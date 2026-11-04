@@ -1,0 +1,21 @@
+{
+  "dataset_name": "News Headline Topic Classification Benchmark Dataset",
+  "file_path": "backend/data/news_headlines.csv",
+  "total_records": 2000,
+  "categories_supported": [
+    "Business",
+    "Entertainment",
+    "Sports",
+    "Technology"
+  ],
+  "class_distribution": {
+    "Sports": 500,
+    "Business": 500,
+    "Entertainment": 500,
+    "Technology": 500
+  },
+  "is_balanced": true,
+  "average_headline_words": 11.78,
+  "min_headline_words": 8,
+  "max_headline_words": 18
+}

@@ -1,0 +1,85 @@
+{
+  "manifest_version": "2.0.0",
+  "updated_at": "2026-11-01T15:00:00Z",
+  "datasets": {
+    "primary_real_world": {
+      "name": "BBC News Headline Benchmark",
+      "file": "backend/data/real_headlines.csv",
+      "total_records": 1600,
+      "classes": {
+        "Entertainment": 400,
+        "Business": 400,
+        "Sports": 400,
+        "Technology": 400
+      },
+      "provenance": {
+        "origin": "BBC News Fulltext Archive (2004-2005)",
+        "authors": "Derek Greene & P\u00e1draig Cunningham, University College Dublin",
+        "citation": "D. Greene and P. Cunningham. 'Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering', Proc. ICML 2006",
+        "url": "http://mlg.ucd.ie/datasets/bbc.html",
+        "license": "BBC Non-commercial Academic & Research Use",
+        "extraction_method": "Exact extraction of article headline (line 1 of original documents)"
+      },
+      "data_hygiene": {
+        "duplicate_count": 0,
+        "avg_word_count": 5.63,
+        "min_words": 3,
+        "max_words": 16
+      }
+    },
+    "independent_external": {
+      "name": "AG News Out-of-Domain Evaluation Benchmark",
+      "file": "backend/data/external_ag_news.csv",
+      "total_records": 1200,
+      "classes": {
+        "Technology": 400,
+        "Sports": 400,
+        "Business": 400
+      },
+      "provenance": {
+        "origin": "AG News Topic Classification Dataset (Zhang, Zhao, LeCun, NeurIPS 2015)",
+        "url": "https://raw.githubusercontent.com/mhjabreel/CharCnn_Keras/master/data/ag_news_csv/test.csv",
+        "license": "Academic Non-commercial Research Use",
+        "extraction_method": "Cleaned title field with press agency tags stripped"
+      },
+      "data_hygiene": {
+        "duplicate_count": 0,
+        "cross_overlap_with_primary_real": 17
+      }
+    },
+    "synthetic_templated": {
+      "name": "Controlled Synthetic / Templated Benchmark",
+      "file": "backend/data/synthetic_headlines.csv",
+      "total_records": 2000,
+      "classes": {
+        "Sports": 500,
+        "Business": 500,
+        "Entertainment": 500,
+        "Technology": 500
+      },
+      "provenance": {
+        "origin": "Curated seed headlines (10.2%) expanded with combinatorial templates (89.8%)",
+        "purpose": "Ablation and controlled-vocabulary consistency testing (not for wild generalization claims)"
+      },
+      "data_hygiene": {
+        "duplicate_count": 0
+      }
+    }
+  },
+  "model_artifacts": {
+    "classifier_pipeline_joblib": {
+      "name": "Preserved Baseline 4-Class Pipeline",
+      "file": "backend/models/classifier_pipeline.joblib",
+      "training_dataset": "BBC News (1,600 samples)",
+      "intended_use": "Academic and educational comparative benchmarking only",
+      "license_notice": "Trained on BBC News academic archive (Greene & Cunningham 2006). Intended strictly for non-commercial academic research reproduction."
+    },
+    "classifier_13class_pipeline_joblib": {
+      "name": "Production Track 1 13-Class Pipeline",
+      "file": "backend/models/classifier_13class_pipeline.joblib",
+      "training_dataset": "HuffPost News Category Dataset v3 (Misra 2022)",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "attribution": "Misra, Rishabh. News Category Dataset. arXiv:2209.11429 (2022)."
+    }
+  }
+}

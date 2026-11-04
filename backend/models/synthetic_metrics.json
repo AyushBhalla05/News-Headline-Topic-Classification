@@ -1,0 +1,7 @@
+{
+  "benchmark_name": "Controlled Synthetic / Templated Benchmark",
+  "total_samples": 2000,
+  "accuracy": 0.767,
+  "macro_f1": 0.7688,
+  "purpose": "Ablation and vocabulary consistency testing (kept separate from real-world claims)"
+}

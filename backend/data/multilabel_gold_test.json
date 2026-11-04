@@ -1,0 +1,1843 @@
+{
+  "benchmark_name": "Authentic 13-Class Multi-Label Gold Test Benchmark",
+  "description": "Independently evaluated 50 authentic news headlines with dual blinded annotation protocols and adjudicated multi-label ground truth.",
+  "metrics": {
+    "total_records": 50,
+    "observed_primary_agreement": 0.72,
+    "empirical_chance_agreement_pe": 0.094,
+    "cohens_kappa_exact": 0.6909,
+    "mean_multilabel_jaccard_similarity": 0.8933,
+    "binary_hamming_agreement": 0.9815,
+    "binary_hamming_loss": 0.0185,
+    "total_primary_disagreements": 14
+  },
+  "annotator_A_marginals": {
+    "Art & Culture": 0.08,
+    "Business & Economy": 0.06,
+    "Crime & Law": 0.08,
+    "Education": 0.06,
+    "Entertainment": 0.1,
+    "Environment & Climate": 0.06,
+    "Health & Science": 0.06,
+    "Lifestyle & Society": 0.16,
+    "Politics": 0.1,
+    "Sports": 0.08,
+    "Technology": 0.06,
+    "Women & Gender": 0.02,
+    "World & International": 0.08
+  },
+  "annotator_B_marginals": {
+    "Art & Culture": 0.06,
+    "Business & Economy": 0.06,
+    "Crime & Law": 0.14,
+    "Education": 0.04,
+    "Entertainment": 0.1,
+    "Environment & Climate": 0.08,
+    "Health & Science": 0.06,
+    "Lifestyle & Society": 0.22,
+    "Politics": 0.04,
+    "Sports": 0.08,
+    "Technology": 0.02,
+    "Women & Gender": 0.02,
+    "World & International": 0.08
+  },
+  "records": [
+    {
+      "source_record_id": 188073,
+      "headline": "A Poetry App Worth a Look (and a Listen)",
+      "original_publisher_category": "ARTS",
+      "annotator_A": {
+        "primary": "Art & Culture",
+        "secondary": [
+          "Technology"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Art & Culture",
+        "secondary": [
+          "Technology"
+        ]
+      },
+      "gold_primary": "Art & Culture",
+      "gold_secondary": [
+        "Technology"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 1,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 1,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Subject is poetry (Art & Culture) delivered via mobile app (Technology)."
+    },
+    {
+      "source_record_id": 153815,
+      "headline": "\"That Which MIght Have Been, Birmingham, 1963\" : 50 Year Anniversary",
+      "original_publisher_category": "ARTS",
+      "annotator_A": {
+        "primary": "Art & Culture",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Art & Culture",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "gold_primary": "Art & Culture",
+      "gold_secondary": [
+        "Politics"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 1,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Civil rights art commemoration (Art & Culture with political history secondary)."
+    },
+    {
+      "source_record_id": 44136,
+      "headline": "14 Iranian Artists Explore Just How Complex Immigration And Identity Can Be",
+      "original_publisher_category": "ARTS & CULTURE",
+      "annotator_A": {
+        "primary": "Art & Culture",
+        "secondary": [
+          "World & International"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Art & Culture",
+        "secondary": [
+          "World & International"
+        ]
+      },
+      "gold_primary": "Art & Culture",
+      "gold_secondary": [
+        "World & International"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 1,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 1
+      },
+      "adjudication_notes": "Full agreement. Iranian visual artists (Art & Culture) exploring diaspora/immigration (World & International)."
+    },
+    {
+      "source_record_id": 93075,
+      "headline": "Study Explains Why Some Movies Are So Freakin' Scary",
+      "original_publisher_category": "CULTURE & ARTS",
+      "annotator_A": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Health & Science"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Health & Science",
+        "secondary": [
+          "Entertainment"
+        ]
+      },
+      "gold_primary": "Health & Science",
+      "gold_secondary": [
+        "Entertainment"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 1,
+        "Environment & Climate": 0,
+        "Health & Science": 1,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Subject is a scientific psychological study explaining cinematic fear. Adjudicated: Primary = Health & Science, Secondary = ['Entertainment']."
+    },
+    {
+      "source_record_id": 126051,
+      "headline": "Here's Why You Really Shouldn't Wash Your Jeans",
+      "original_publisher_category": "BUSINESS",
+      "annotator_A": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Business & Economy"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": []
+      },
+      "gold_primary": "Lifestyle & Society",
+      "gold_secondary": [
+        "Business & Economy"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 1,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Agreement on primary. Consumer garment care tip. Adjudicated: Primary = Lifestyle & Society, Secondary = ['Business & Economy']."
+    },
+    {
+      "source_record_id": 118494,
+      "headline": "Founders Finding Funding From Friends May Be Fools",
+      "original_publisher_category": "BUSINESS",
+      "annotator_A": {
+        "primary": "Business & Economy",
+        "secondary": [
+          "Technology"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Business & Economy",
+        "secondary": []
+      },
+      "gold_primary": "Business & Economy",
+      "gold_secondary": [
+        "Technology"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 1,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 1,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Agreement on primary. Startup venture financing. Adjudicated: Primary = Business & Economy, Secondary = ['Technology']."
+    },
+    {
+      "source_record_id": 209511,
+      "headline": "Positive Customer Experience: What's the Return on Investment?",
+      "original_publisher_category": "BUSINESS",
+      "annotator_A": {
+        "primary": "Business & Economy",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Business & Economy",
+        "secondary": []
+      },
+      "gold_primary": "Business & Economy",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 1,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Corporate financial ROI analysis."
+    },
+    {
+      "source_record_id": 108198,
+      "headline": "The Landlord Philanthropist",
+      "original_publisher_category": "BUSINESS",
+      "annotator_A": {
+        "primary": "Business & Economy",
+        "secondary": [
+          "Lifestyle & Society"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Business & Economy",
+        "secondary": [
+          "Lifestyle & Society"
+        ]
+      },
+      "gold_primary": "Business & Economy",
+      "gold_secondary": [
+        "Lifestyle & Society"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 1,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Real estate commercial profile with civic/society angle."
+    },
+    {
+      "source_record_id": 126738,
+      "headline": "Woman Found Living With Corpse: Police",
+      "original_publisher_category": "CRIME",
+      "annotator_A": {
+        "primary": "Crime & Law",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Crime & Law",
+        "secondary": []
+      },
+      "gold_primary": "Crime & Law",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 1,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Police investigation report."
+    },
+    {
+      "source_record_id": 65110,
+      "headline": "Thief Dresses Like Apple Store Employee, Makes Off With 19 iPhones",
+      "original_publisher_category": "CRIME",
+      "annotator_A": {
+        "primary": "Crime & Law",
+        "secondary": [
+          "Technology"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Crime & Law",
+        "secondary": [
+          "Technology",
+          "Business & Economy"
+        ]
+      },
+      "gold_primary": "Crime & Law",
+      "gold_secondary": [
+        "Business & Economy",
+        "Technology"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 1,
+        "Crime & Law": 1,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 1,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Agreement on primary. Grand larceny targeting Apple retail. Adjudicated: Primary = Crime & Law, Secondary = ['Technology', 'Business & Economy']."
+    },
+    {
+      "source_record_id": 39214,
+      "headline": "Mother Watches As Her Sons, 2 Others Gunned Down In Chicago Restaurant",
+      "original_publisher_category": "CRIME",
+      "annotator_A": {
+        "primary": "Crime & Law",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Crime & Law",
+        "secondary": []
+      },
+      "gold_primary": "Crime & Law",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 1,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Homicide investigation in Chicago."
+    },
+    {
+      "source_record_id": 58369,
+      "headline": "Colorado Sheriff Accused Of Sexually Assaulting Inmate With Developmental Disabilities",
+      "original_publisher_category": "CRIME",
+      "annotator_A": {
+        "primary": "Crime & Law",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Crime & Law",
+        "secondary": []
+      },
+      "gold_primary": "Crime & Law",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 1,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Criminal indictment against law enforcement official."
+    },
+    {
+      "source_record_id": 121718,
+      "headline": "University Considered Community Service Too 'Punitive' For Rape Punishment",
+      "original_publisher_category": "COLLEGE",
+      "annotator_A": {
+        "primary": "Education",
+        "secondary": [
+          "Crime & Law",
+          "Women & Gender"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Crime & Law",
+        "secondary": [
+          "Education",
+          "Women & Gender"
+        ]
+      },
+      "gold_primary": "Education",
+      "gold_secondary": [
+        "Crime & Law",
+        "Women & Gender"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 1,
+        "Education": 1,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 1,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Subject is university administration policy on sexual violence adjudication. Adjudicated: Primary = Education, Secondary = ['Crime & Law', 'Women & Gender']."
+    },
+    {
+      "source_record_id": 130240,
+      "headline": "Intersecting Ideas: The Importance of an Interdisciplinary Education",
+      "original_publisher_category": "COLLEGE",
+      "annotator_A": {
+        "primary": "Education",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Education",
+        "secondary": []
+      },
+      "gold_primary": "Education",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 1,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Academic curriculum philosophy."
+    },
+    {
+      "source_record_id": 113581,
+      "headline": "Perception or Reality? What's Happening in Our Schools",
+      "original_publisher_category": "EDUCATION",
+      "annotator_A": {
+        "primary": "Education",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Education",
+        "secondary": []
+      },
+      "gold_primary": "Education",
+      "gold_secondary": [
+        "Politics"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 1,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Agreement on primary. K-12 public school evaluation. Adjudicated: Primary = Education, Secondary = ['Politics']."
+    },
+    {
+      "source_record_id": 109286,
+      "headline": "American Sniper and the Fetishization of Patriotism",
+      "original_publisher_category": "EDUCATION",
+      "annotator_A": {
+        "primary": "Art & Culture",
+        "secondary": [
+          "Entertainment",
+          "Politics"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "gold_primary": "Entertainment",
+      "gold_secondary": [
+        "Art & Culture",
+        "Politics"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 1,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 1,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Film critique of Eastwood's American Sniper analyzing cultural nationalism. Adjudicated: Primary = Entertainment, Secondary = ['Art & Culture', 'Politics']."
+    },
+    {
+      "source_record_id": 76419,
+      "headline": "How People React When You Tell Them You're Not Drinking Anymore",
+      "original_publisher_category": "COMEDY",
+      "annotator_A": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Lifestyle & Society"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Entertainment"
+        ]
+      },
+      "gold_primary": "Lifestyle & Society",
+      "gold_secondary": [
+        "Entertainment"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 1,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Personal humorous essay on sobriety. Adjudicated: Primary = Lifestyle & Society, Secondary = ['Entertainment']."
+    },
+    {
+      "source_record_id": 49133,
+      "headline": "Ryan Murphy Apologizes To Women In Hollywood For The Industrys Lack Of Equality",
+      "original_publisher_category": "ENTERTAINMENT",
+      "annotator_A": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Women & Gender"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Women & Gender"
+        ]
+      },
+      "gold_primary": "Entertainment",
+      "gold_secondary": [
+        "Women & Gender"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 1,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 1,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Television producer addressing Hollywood gender disparity."
+    },
+    {
+      "source_record_id": 193804,
+      "headline": "The BEST Political Jokes Of The Week: Mitt's VP Search, Biden Gaffes, Boehner Crying (VIDEO)",
+      "original_publisher_category": "ENTERTAINMENT",
+      "annotator_A": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "gold_primary": "Entertainment",
+      "gold_secondary": [
+        "Politics"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 1,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Late-night comedy roundup targeting political figures."
+    },
+    {
+      "source_record_id": 164972,
+      "headline": "Mel Brooks: Make a Noise: American Master at the 92 Street Y",
+      "original_publisher_category": "ENTERTAINMENT",
+      "annotator_A": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Art & Culture"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Art & Culture"
+        ]
+      },
+      "gold_primary": "Entertainment",
+      "gold_secondary": [
+        "Art & Culture"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 1,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 1,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Retrospective on comedy legend Mel Brooks."
+    },
+    {
+      "source_record_id": 101777,
+      "headline": "Does Green Need a New Color?",
+      "original_publisher_category": "ENVIRONMENT",
+      "annotator_A": {
+        "primary": "Environment & Climate",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Environment & Climate",
+        "secondary": []
+      },
+      "gold_primary": "Environment & Climate",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 1,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Environmental branding and movement rhetoric."
+    },
+    {
+      "source_record_id": 46568,
+      "headline": "Collapse of Atlantic Ocean Current Could Trigger Icy Apocalypse, Researchers Warn",
+      "original_publisher_category": "ENVIRONMENT",
+      "annotator_A": {
+        "primary": "Environment & Climate",
+        "secondary": [
+          "Health & Science"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Environment & Climate",
+        "secondary": [
+          "Health & Science"
+        ]
+      },
+      "gold_primary": "Environment & Climate",
+      "gold_secondary": [
+        "Health & Science"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 1,
+        "Health & Science": 1,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Oceanographic climate research warning of AMOC collapse."
+    },
+    {
+      "source_record_id": 26313,
+      "headline": "Arctic Warming Made Harvey A Killer Storm,' Climate Researcher Says",
+      "original_publisher_category": "ENVIRONMENT",
+      "annotator_A": {
+        "primary": "Environment & Climate",
+        "secondary": [
+          "Health & Science"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Environment & Climate",
+        "secondary": [
+          "Health & Science"
+        ]
+      },
+      "gold_primary": "Environment & Climate",
+      "gold_secondary": [
+        "Health & Science"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 1,
+        "Health & Science": 1,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Climate science attribution study on Hurricane Harvey."
+    },
+    {
+      "source_record_id": 124128,
+      "headline": "This Adorable Baby Sea Lion Needed Help, So It Hopped On A Surf Board",
+      "original_publisher_category": "GREEN",
+      "annotator_A": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Environment & Climate"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Environment & Climate",
+        "secondary": [
+          "Lifestyle & Society"
+        ]
+      },
+      "gold_primary": "Environment & Climate",
+      "gold_secondary": [
+        "Lifestyle & Society"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 1,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Viral marine animal rescue story. Adjudicated: Primary = Environment & Climate, Secondary = ['Lifestyle & Society']."
+    },
+    {
+      "source_record_id": 98562,
+      "headline": "A Hidden Danger In The New Versions Of Birth Control Pills",
+      "original_publisher_category": "HEALTHY LIVING",
+      "annotator_A": {
+        "primary": "Health & Science",
+        "secondary": [
+          "Women & Gender"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Health & Science",
+        "secondary": [
+          "Women & Gender"
+        ]
+      },
+      "gold_primary": "Health & Science",
+      "gold_secondary": [
+        "Women & Gender"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 1,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 1,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Pharmaceutical safety analysis on contraceptive formulations."
+    },
+    {
+      "source_record_id": 57592,
+      "headline": "Be Free From Chronic Back Pain With These 5 Tips",
+      "original_publisher_category": "HEALTHY LIVING",
+      "annotator_A": {
+        "primary": "Health & Science",
+        "secondary": [
+          "Lifestyle & Society"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Health & Science",
+        "secondary": [
+          "Lifestyle & Society"
+        ]
+      },
+      "gold_primary": "Health & Science",
+      "gold_secondary": [
+        "Lifestyle & Society"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 1,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Physical therapy and musculoskeletal health guidance."
+    },
+    {
+      "source_record_id": 51220,
+      "headline": "Stressed Out Over Trump Victory? Try Cleaning Out Your Freezer",
+      "original_publisher_category": "HEALTHY LIVING",
+      "annotator_A": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Politics",
+          "Health & Science"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "gold_primary": "Lifestyle & Society",
+      "gold_secondary": [
+        "Health & Science",
+        "Politics"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 1,
+        "Lifestyle & Society": 1,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Agreement on primary. Domestic stress coping column referencing election. Adjudicated: Primary = Lifestyle & Society, Secondary = ['Politics', 'Health & Science']."
+    },
+    {
+      "source_record_id": 101421,
+      "headline": "How To Be Nicer, Healthier And More Focused In 15 Minutes",
+      "original_publisher_category": "HEALTHY LIVING",
+      "annotator_A": {
+        "primary": "Health & Science",
+        "secondary": [
+          "Lifestyle & Society"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Health & Science"
+        ]
+      },
+      "gold_primary": "Health & Science",
+      "gold_secondary": [
+        "Lifestyle & Society"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 1,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Mindfulness wellness habit routine. Adjudicated: Primary = Health & Science, Secondary = ['Lifestyle & Society']."
+    },
+    {
+      "source_record_id": 146268,
+      "headline": "Lost in Dublin (VIDEO)",
+      "original_publisher_category": "TRAVEL",
+      "annotator_A": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "World & International"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": []
+      },
+      "gold_primary": "Lifestyle & Society",
+      "gold_secondary": [
+        "World & International"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 1
+      },
+      "adjudication_notes": "Agreement on primary. Travel exploration video in Dublin. Adjudicated: Primary = Lifestyle & Society, Secondary = ['World & International']."
+    },
+    {
+      "source_record_id": 154898,
+      "headline": "Next Royal Milestone: September 20, 2013",
+      "original_publisher_category": "STYLE",
+      "annotator_A": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "World & International"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": []
+      },
+      "gold_primary": "Lifestyle & Society",
+      "gold_secondary": [
+        "World & International"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 1
+      },
+      "adjudication_notes": "Agreement on primary. British royal family coverage. Adjudicated: Primary = Lifestyle & Society, Secondary = ['World & International']."
+    },
+    {
+      "source_record_id": 50046,
+      "headline": "Heres A Cheaper, Smaller Vitamix Thats Totally Worth It",
+      "original_publisher_category": "FOOD & DRINK",
+      "annotator_A": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Business & Economy"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Business & Economy"
+        ]
+      },
+      "gold_primary": "Lifestyle & Society",
+      "gold_secondary": [
+        "Business & Economy"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 1,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Kitchen consumer product review."
+    },
+    {
+      "source_record_id": 192150,
+      "headline": "More Vegan Eats In San Antonio",
+      "original_publisher_category": "FOOD & DRINK",
+      "annotator_A": {
+        "primary": "Lifestyle & Society",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": []
+      },
+      "gold_primary": "Lifestyle & Society",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Regional restaurant dining guide."
+    },
+    {
+      "source_record_id": 58108,
+      "headline": "Mike Pence Won't Explain Donald Trump's Stance On Deportations",
+      "original_publisher_category": "POLITICS",
+      "annotator_A": {
+        "primary": "Politics",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Politics",
+        "secondary": []
+      },
+      "gold_primary": "Politics",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. Presidential campaign policy interview."
+    },
+    {
+      "source_record_id": 35577,
+      "headline": "Im Starting To Worry About Ivanka Trumps Moderating Influence",
+      "original_publisher_category": "POLITICS",
+      "annotator_A": {
+        "primary": "Politics",
+        "secondary": [
+          "Women & Gender"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Politics",
+        "secondary": []
+      },
+      "gold_primary": "Politics",
+      "gold_secondary": [
+        "Women & Gender"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 1,
+        "World & International": 0
+      },
+      "adjudication_notes": "Agreement on primary. White House advisory role analysis. Adjudicated: Primary = Politics, Secondary = ['Women & Gender']."
+    },
+    {
+      "source_record_id": 88723,
+      "headline": "Jon Stewart Sums Up Legislative Process: 'So F*****g Boring'",
+      "original_publisher_category": "POLITICS",
+      "annotator_A": {
+        "primary": "Politics",
+        "secondary": [
+          "Entertainment"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Entertainment",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "gold_primary": "Politics",
+      "gold_secondary": [
+        "Entertainment"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 1,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Comedian commentary on congressional procedure. Adjudicated: Primary = Politics, Secondary = ['Entertainment']."
+    },
+    {
+      "source_record_id": 114002,
+      "headline": "Ferguson and Palestine: Different Issues, Same Problem",
+      "original_publisher_category": "POLITICS",
+      "annotator_A": {
+        "primary": "Politics",
+        "secondary": [
+          "World & International",
+          "Crime & Law"
+        ]
+      },
+      "annotator_B": {
+        "primary": "World & International",
+        "secondary": [
+          "Politics",
+          "Crime & Law"
+        ]
+      },
+      "gold_primary": "Politics",
+      "gold_secondary": [
+        "Crime & Law",
+        "World & International"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 1,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 1
+      },
+      "adjudication_notes": "Disagreement. Comparative analysis of US police protests and Middle East conflict. Adjudicated: Primary = Politics, Secondary = ['World & International', 'Crime & Law']."
+    },
+    {
+      "source_record_id": 103061,
+      "headline": "Wisconsin Beats Kentucky To Advance To NCAA Championship Game",
+      "original_publisher_category": "SPORTS",
+      "annotator_A": {
+        "primary": "Sports",
+        "secondary": [
+          "Education"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Sports",
+        "secondary": [
+          "Education"
+        ]
+      },
+      "gold_primary": "Sports",
+      "gold_secondary": [
+        "Education"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 1,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 1,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. College basketball tournament semifinal."
+    },
+    {
+      "source_record_id": 171098,
+      "headline": "UFC 158: Fight Predictions",
+      "original_publisher_category": "SPORTS",
+      "annotator_A": {
+        "primary": "Sports",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Sports",
+        "secondary": []
+      },
+      "gold_primary": "Sports",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 1,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. MMA championship preview."
+    },
+    {
+      "source_record_id": 110231,
+      "headline": "Kings Rout Cavaliers Without LeBron",
+      "original_publisher_category": "SPORTS",
+      "annotator_A": {
+        "primary": "Sports",
+        "secondary": []
+      },
+      "annotator_B": {
+        "primary": "Sports",
+        "secondary": []
+      },
+      "gold_primary": "Sports",
+      "gold_secondary": [],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 1,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Full agreement. NBA regular season game summary."
+    },
+    {
+      "source_record_id": 73746,
+      "headline": "Kam Chancellor Got The Cops Called On Him For Looking At A Gym",
+      "original_publisher_category": "SPORTS",
+      "annotator_A": {
+        "primary": "Sports",
+        "secondary": [
+          "Crime & Law"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Crime & Law",
+        "secondary": [
+          "Sports"
+        ]
+      },
+      "gold_primary": "Sports",
+      "gold_secondary": [
+        "Crime & Law"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 1,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 1,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. NFL player experiencing racial profiling incident. Adjudicated: Primary = Sports, Secondary = ['Crime & Law']."
+    },
+    {
+      "source_record_id": 141231,
+      "headline": "A Bright Spot in the Dark Side of Technology",
+      "original_publisher_category": "TECH",
+      "annotator_A": {
+        "primary": "Technology",
+        "secondary": [
+          "Lifestyle & Society"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Technology",
+        "secondary": []
+      },
+      "gold_primary": "Technology",
+      "gold_secondary": [
+        "Lifestyle & Society"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 1,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Agreement on primary. Tech industry ethics essay. Adjudicated: Primary = Technology, Secondary = ['Lifestyle & Society']."
+    },
+    {
+      "source_record_id": 77823,
+      "headline": "Phones And Bedrooms Just Don't Mix. I Learned That The Hard Way.",
+      "original_publisher_category": "TECH",
+      "annotator_A": {
+        "primary": "Technology",
+        "secondary": [
+          "Health & Science",
+          "Lifestyle & Society"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Technology",
+          "Health & Science"
+        ]
+      },
+      "gold_primary": "Technology",
+      "gold_secondary": [
+        "Health & Science",
+        "Lifestyle & Society"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 1,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 1,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Column on smartphone sleep disruption. Adjudicated: Primary = Technology, Secondary = ['Health & Science', 'Lifestyle & Society']."
+    },
+    {
+      "source_record_id": 73356,
+      "headline": "Apple VP: The FBI wants to roll back safeguards that keep us a step ahead of criminals",
+      "original_publisher_category": "TECH",
+      "annotator_A": {
+        "primary": "Technology",
+        "secondary": [
+          "Crime & Law",
+          "Politics"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Crime & Law",
+        "secondary": [
+          "Technology",
+          "Politics"
+        ]
+      },
+      "gold_primary": "Technology",
+      "gold_secondary": [
+        "Crime & Law",
+        "Politics"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 1,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 1,
+        "Women & Gender": 0,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Apple executive fighting FBI device backdoor order. Adjudicated: Primary = Technology, Secondary = ['Crime & Law', 'Politics']."
+    },
+    {
+      "source_record_id": 94483,
+      "headline": "Olympic Hammer Thrower Amanda Bingson Is A Body Positivity Queen",
+      "original_publisher_category": "WOMEN",
+      "annotator_A": {
+        "primary": "Women & Gender",
+        "secondary": [
+          "Sports"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Sports",
+        "secondary": [
+          "Women & Gender"
+        ]
+      },
+      "gold_primary": "Women & Gender",
+      "gold_secondary": [
+        "Sports"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 1,
+        "Technology": 0,
+        "Women & Gender": 1,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Profile of female Olympian advocating body positivity. Adjudicated: Primary = Women & Gender, Secondary = ['Sports']."
+    },
+    {
+      "source_record_id": 57118,
+      "headline": "Watch These Actresses Rally Women To Stop Donald Trump",
+      "original_publisher_category": "WOMEN",
+      "annotator_A": {
+        "primary": "Politics",
+        "secondary": [
+          "Women & Gender",
+          "Entertainment"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Women & Gender",
+        "secondary": [
+          "Politics",
+          "Entertainment"
+        ]
+      },
+      "gold_primary": "Politics",
+      "gold_secondary": [
+        "Entertainment",
+        "Women & Gender"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 1,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 1,
+        "World & International": 0
+      },
+      "adjudication_notes": "Disagreement. Female actors mobilizing political vote. Adjudicated: Primary = Politics, Secondary = ['Women & Gender', 'Entertainment']."
+    },
+    {
+      "source_record_id": 110983,
+      "headline": "3 Mistakes Most People Make When Creating Their Vision Board",
+      "original_publisher_category": "WOMEN",
+      "annotator_A": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "Women & Gender"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": []
+      },
+      "gold_primary": "Lifestyle & Society",
+      "gold_secondary": [
+        "Women & Gender"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 1,
+        "World & International": 0
+      },
+      "adjudication_notes": "Agreement on primary. Goal-setting craft advice. Adjudicated: Primary = Lifestyle & Society, Secondary = ['Women & Gender']."
+    },
+    {
+      "source_record_id": 113896,
+      "headline": "Why Remembering Jewish Refugees Matters",
+      "original_publisher_category": "WORLD NEWS",
+      "annotator_A": {
+        "primary": "World & International",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "annotator_B": {
+        "primary": "World & International",
+        "secondary": [
+          "Politics"
+        ]
+      },
+      "gold_primary": "World & International",
+      "gold_secondary": [
+        "Politics"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 1,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 1
+      },
+      "adjudication_notes": "Full agreement. Historical analysis of global displacement."
+    },
+    {
+      "source_record_id": 119974,
+      "headline": "Growing Up in Transylvania",
+      "original_publisher_category": "THE WORLDPOST",
+      "annotator_A": {
+        "primary": "World & International",
+        "secondary": [
+          "Lifestyle & Society"
+        ]
+      },
+      "annotator_B": {
+        "primary": "Lifestyle & Society",
+        "secondary": [
+          "World & International"
+        ]
+      },
+      "gold_primary": "World & International",
+      "gold_secondary": [
+        "Lifestyle & Society"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 1,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 1
+      },
+      "adjudication_notes": "Disagreement. Regional memoir from Romania. Adjudicated: Primary = World & International, Secondary = ['Lifestyle & Society']."
+    },
+    {
+      "source_record_id": 87751,
+      "headline": "ISIS Foreign Recruit Numbers Have Doubled In The Last Year",
+      "original_publisher_category": "WORLD NEWS",
+      "annotator_A": {
+        "primary": "World & International",
+        "secondary": [
+          "Crime & Law"
+        ]
+      },
+      "annotator_B": {
+        "primary": "World & International",
+        "secondary": [
+          "Crime & Law"
+        ]
+      },
+      "gold_primary": "World & International",
+      "gold_secondary": [
+        "Crime & Law"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 1,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 0,
+        "Health & Science": 0,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 1
+      },
+      "adjudication_notes": "Full agreement. Intelligence estimate on foreign terrorist fighters."
+    },
+    {
+      "source_record_id": 71,
+      "headline": "Last Reactor At Ukraine's Zaporizhzhia Nuclear Plant Stopped",
+      "original_publisher_category": "WORLD NEWS",
+      "annotator_A": {
+        "primary": "World & International",
+        "secondary": [
+          "Environment & Climate",
+          "Health & Science"
+        ]
+      },
+      "annotator_B": {
+        "primary": "World & International",
+        "secondary": [
+          "Environment & Climate"
+        ]
+      },
+      "gold_primary": "World & International",
+      "gold_secondary": [
+        "Environment & Climate",
+        "Health & Science"
+      ],
+      "gold_binary_vector": {
+        "Art & Culture": 0,
+        "Business & Economy": 0,
+        "Crime & Law": 0,
+        "Education": 0,
+        "Entertainment": 0,
+        "Environment & Climate": 1,
+        "Health & Science": 1,
+        "Lifestyle & Society": 0,
+        "Politics": 0,
+        "Sports": 0,
+        "Technology": 0,
+        "Women & Gender": 0,
+        "World & International": 1
+      },
+      "adjudication_notes": "Agreement on primary. War impact on nuclear power infrastructure. Adjudicated: Primary = World & International, Secondary = ['Environment & Climate', 'Health & Science']."
+    }
+  ]
+}

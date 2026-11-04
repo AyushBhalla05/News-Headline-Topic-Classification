@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Node & Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+node_modules/
+.npm
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local scratch logs
+*.tmp
+NOT USED/
+
+# Archives & Release Packages
+*.zip
+*.tar.gz
+*.tgz
+
+# Environment & Secret files
+.env
+.env.*
+*.env
+*.env.local
+*.env.development
+*.env.production
+*.env.test
+
+# Databases & User-Generated Prediction History
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/data/*.db
+backend/data/predictions.db
+
+# Restricted Source Datasets (Protected from public redistribution)
+backend/data/raw/
+backend/data/real_headlines.csv
+
+# Third-Party Non-Redistributable Baseline Datasets and Derived Baseline Artifacts
+backend/data/external_ag_news.csv
+backend/models/classifier_pipeline.joblib
+backend/models/metrics.json
+backend/models/external_metrics.json
+
