@@ -1,11 +1,17 @@
 # ⚡ NewsIntel — Calibrated NLP Topic Classification Platform
 
 <p align="center">
+  <a href="https://newsintel-v3.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-newsintel--v3.vercel.app-00f0ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+  </a>
+  <a href="https://newsintel-api-tnuh.onrender.com/docs" target="_blank">
+    <img src="https://img.shields.io/badge/⚡%20API%20Docs-Swagger%20UI-46e3b7?style=for-the-badge&logo=fastapi&logoColor=white" alt="API Docs" />
+  </a>
   <img src="https://img.shields.io/badge/Python-3.11.9-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/scikit--learn-1.9.1-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
   <img src="https://img.shields.io/badge/FastAPI-0.110.0-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Next.js-14.2.35-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Tests-28%2F28%20Passed-brightgreen?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
+  <img src="https://img.shields.io/badge/Tests-29%2F29%20Passed-brightgreen?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
   <img src="https://img.shields.io/badge/Latency-%3C0.1ms%20(LRU)-blue?style=for-the-badge" alt="Latency" />
 </p>
 
@@ -13,6 +19,11 @@
   <b>Production-grade, end-to-end Machine Learning NLP platform for news headline topic classification.</b><br>
   Built with a 13-class 5-fold Platt Calibrated LinearSVC pipeline, sub-millisecond in-memory LRU caching, token-level feature attribution, persistent SQLite audit logging, and an interactive sci-fi HUD telemetry dashboard.
 </p>
+
+> ### 🌐 Live Cloud Deployments:
+> - **Live Web Application (Next.js HUD Cockpit):** [https://newsintel-v3.vercel.app](https://newsintel-v3.vercel.app)
+> - **Production API Endpoint (Render Cloud):** [https://newsintel-api-tnuh.onrender.com](https://newsintel-api-tnuh.onrender.com)
+> - **Interactive Swagger / OpenAPI Documentation:** [https://newsintel-api-tnuh.onrender.com/docs](https://newsintel-api-tnuh.onrender.com/docs)
 
 <p align="center">
   <img src="assets/newsintel_hero.jpg" alt="NewsIntel Platform Showcase" width="100%" />
@@ -104,6 +115,10 @@ graph TD
 
 The 13-class model was evaluated on an untouched held-out test split of **2,600 news headlines** (balanced across 200 samples per class):
 
+<p align="center">
+  <img src="assets/figures/fig1_confusion_matrix_heatmap.png" alt="13-Class Confusion Matrix Heatmap" width="85%" />
+</p>
+
 | Metric | Production 13-Class Model | Random Guess Baseline | Improvement |
 | :--- | :---: | :---: | :---: |
 | **Number of Classes** | **13 Topics** | 13 Topics | — |
@@ -114,6 +129,18 @@ The 13-class model was evaluated on an untouched held-out test split of **2,600 
 | **Brier Score (Multi-class)**| **0.5004** | 0.9231 | **Well Calibrated** |
 | **Average Latency (Cold)** | **~12ms - 18ms** | — | High Throughput |
 | **Average Latency (LRU Hit)**| **<0.1ms** | — | Instant Sub-millisecond |
+
+<p align="center">
+  <img src="assets/figures/fig2_per_class_f1_precision_recall.png" alt="Per-Category Performance Breakdown" width="95%" />
+</p>
+
+<p align="center">
+  <img src="assets/figures/fig3_benchmark_lift_comparison.png" alt="Benchmark Lift Over Random Guess" width="95%" />
+</p>
+
+<p align="center">
+  <img src="assets/figures/fig4_latency_comparison.png" alt="Latency Comparison: Cold ML vs Warm In-Memory LRU Cache" width="90%" />
+</p>
 
 ### Per-Class Test Performance (200 Balanced Samples / Category):
 - **Education**: 75.13% F1-score (Precision: 79.78%, Recall: 71.00%)
