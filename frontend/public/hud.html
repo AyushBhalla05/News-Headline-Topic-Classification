@@ -917,7 +917,7 @@
             <thead>
               <tr style="background: rgba(3,5,10,0.9); border-bottom: 1px solid rgba(34,229,255,0.25); color: var(--muted);">
                 <th style="padding: 0.75rem 1rem;">#ID</th>
-                <th style="padding: 0.75rem 1rem;">TIMESTAMP</th>
+                <th style="padding: 0.75rem 1rem;" title="Automatic conversion to your local browser timezone">TIMESTAMP (LOCAL)</th>
                 <th style="padding: 0.75rem 1rem;">HEADLINE</th>
                 <th style="padding: 0.75rem 1rem;">CATEGORY</th>
                 <th style="padding: 0.75rem 1rem;">CONFIDENCE</th>
@@ -1131,13 +1131,43 @@
       }
     }
 
-    // UTC Clock
+    // Live Clock (Local Time with UTC tooltip)
     function updateClock() {
       const now = new Date();
-      document.getElementById('utc-clock').innerText = now.toUTCString().split(' ')[4] + ' UTC';
+      const local = now.toLocaleTimeString([], { hour12: false });
+      const el = document.getElementById('utc-clock');
+      if (el) {
+        el.innerText = `${local} LOCAL`;
+        el.title = `UTC: ${now.toUTCString().split(' ')[4]} UTC`;
+      }
     }
     setInterval(updateClock, 1000);
     updateClock();
+
+    // Convert server UTC timestamp to client local timezone (e.g. IST)
+    function formatToLocalTime(utcDateStr) {
+      if (!utcDateStr) return '—';
+      try {
+        let s = String(utcDateStr).trim();
+        if (s.endsWith(' UTC')) {
+          s = s.replace(/\s+UTC$/, 'Z').replace(' ', 'T');
+        } else if (!s.endsWith('Z') && !s.includes('+')) {
+          s = s.replace(' ', 'T') + 'Z';
+        }
+        const d = new Date(s);
+        if (isNaN(d.getTime())) return String(utcDateStr).slice(0, 19);
+        const pad = n => String(n).padStart(2, '0');
+        const yyyy = d.getFullYear();
+        const mm = pad(d.getMonth() + 1);
+        const dd = pad(d.getDate());
+        const hh = pad(d.getHours());
+        const min = pad(d.getMinutes());
+        const ss = pad(d.getSeconds());
+        return `${yyyy}-${mm}-${dd} ${hh}:${min}:${ss}`;
+      } catch (e) {
+        return String(utcDateStr).slice(0, 19);
+      }
+    }
 
     // Textarea input monitoring
     const textarea = document.getElementById('headline-input');
@@ -1414,7 +1444,7 @@
         currentHistoryOffset = data.offset || 0;
         auditLog = (data.items || []).map(item => ({
           id: item.id,
-          time: item.created_at ? item.created_at.replace('T', ' ').slice(0, 19) : '—',
+          time: formatToLocalTime(item.created_at),
           headline: item.headline,
           category: item.category,
           confidence: item.confidence,
